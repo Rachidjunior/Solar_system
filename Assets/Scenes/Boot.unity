@@ -189,6 +189,7 @@ GameObject:
   - component: {fileID: 88517100}
   - component: {fileID: 88517099}
   - component: {fileID: 88517102}
+  - component: {fileID: 88517103}
   m_Layer: 0
   m_Name: Saturn
   m_TagString: Untagged
@@ -303,6 +304,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlanetView
   planet: 5
   displaySize: 0.5
+--- !u!114 &88517103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88517097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee71083cc2a67ab908a4fd02562053ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrbitRenderer
+  planet: 5
+  samples: 100
+  orbitDays: 10759
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,6 +823,7 @@ GameObject:
   - component: {fileID: 515769786}
   - component: {fileID: 515769785}
   - component: {fileID: 515769788}
+  - component: {fileID: 515769789}
   m_Layer: 0
   m_Name: Uranus
   m_TagString: Untagged
@@ -921,6 +938,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlanetView
   planet: 6
   displaySize: 0.5
+--- !u!114 &515769789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515769783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee71083cc2a67ab908a4fd02562053ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrbitRenderer
+  planet: 6
+  samples: 100
+  orbitDays: 30687
 --- !u!1 &527140839
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,7 +992,7 @@ Transform:
   m_GameObject: {fileID: 527140839}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 7.7, z: 4.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -979,6 +1011,7 @@ GameObject:
   - component: {fileID: 582494023}
   - component: {fileID: 582494022}
   - component: {fileID: 582494025}
+  - component: {fileID: 582494026}
   m_Layer: 0
   m_Name: Mars
   m_TagString: Untagged
@@ -1093,6 +1126,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlanetView
   planet: 3
   displaySize: 0.5
+--- !u!114 &582494026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582494020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee71083cc2a67ab908a4fd02562053ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrbitRenderer
+  planet: 3
+  samples: 100
+  orbitDays: 687
 --- !u!1 &676907618
 GameObject:
   m_ObjectHideFlags: 0
@@ -1474,6 +1522,7 @@ GameObject:
   - component: {fileID: 938304502}
   - component: {fileID: 938304501}
   - component: {fileID: 938304504}
+  - component: {fileID: 938304505}
   m_Layer: 0
   m_Name: Earth
   m_TagString: Untagged
@@ -1588,6 +1637,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlanetView
   planet: 2
   displaySize: 0.5
+--- !u!114 &938304505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938304499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee71083cc2a67ab908a4fd02562053ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrbitRenderer
+  planet: 2
+  samples: 100
+  orbitDays: 365
 --- !u!1 &1020440281
 GameObject:
   m_ObjectHideFlags: 0
@@ -1601,6 +1665,7 @@ GameObject:
   - component: {fileID: 1020440284}
   - component: {fileID: 1020440283}
   - component: {fileID: 1020440286}
+  - component: {fileID: 1020440287}
   m_Layer: 0
   m_Name: Mercury
   m_TagString: Untagged
@@ -1715,6 +1780,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlanetView
   planet: 0
   displaySize: 0.5
+--- !u!114 &1020440287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020440281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee71083cc2a67ab908a4fd02562053ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrbitRenderer
+  planet: 0
+  samples: 100
+  orbitDays: 88
 --- !u!1 &1050067901
 GameObject:
   m_ObjectHideFlags: 0
@@ -1930,6 +2010,7 @@ GameObject:
   - component: {fileID: 1144176536}
   - component: {fileID: 1144176535}
   - component: {fileID: 1144176538}
+  - component: {fileID: 1144176539}
   m_Layer: 0
   m_Name: Venus
   m_TagString: Untagged
@@ -2044,6 +2125,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlanetView
   planet: 1
   displaySize: 0.5
+--- !u!114 &1144176539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144176533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee71083cc2a67ab908a4fd02562053ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrbitRenderer
+  planet: 1
+  samples: 100
+  orbitDays: 225
 --- !u!1 &1442335898
 GameObject:
   m_ObjectHideFlags: 0
@@ -2057,6 +2153,7 @@ GameObject:
   - component: {fileID: 1442335901}
   - component: {fileID: 1442335900}
   - component: {fileID: 1442335903}
+  - component: {fileID: 1442335904}
   m_Layer: 0
   m_Name: Jupiter
   m_TagString: Untagged
@@ -2171,6 +2268,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlanetView
   planet: 4
   displaySize: 0.5
+--- !u!114 &1442335904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442335898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee71083cc2a67ab908a4fd02562053ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrbitRenderer
+  planet: 4
+  samples: 100
+  orbitDays: 4333
 --- !u!1 &1548534531
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,6 +2323,15 @@ MonoBehaviour:
   - {fileID: 515769788}
   - {fileID: 2055849063}
   timeController: {fileID: 527140840}
+  orbits:
+  - {fileID: 1020440287}
+  - {fileID: 1144176539}
+  - {fileID: 938304505}
+  - {fileID: 582494026}
+  - {fileID: 1442335904}
+  - {fileID: 88517103}
+  - {fileID: 515769789}
+  - {fileID: 2055849064}
 --- !u!4 &1548534533
 Transform:
   m_ObjectHideFlags: 0
@@ -2554,6 +2675,7 @@ GameObject:
   - component: {fileID: 2055849061}
   - component: {fileID: 2055849060}
   - component: {fileID: 2055849063}
+  - component: {fileID: 2055849064}
   m_Layer: 0
   m_Name: Neptune
   m_TagString: Untagged
@@ -2668,6 +2790,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlanetView
   planet: 7
   displaySize: 0.5
+--- !u!114 &2055849064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055849058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee71083cc2a67ab908a4fd02562053ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrbitRenderer
+  planet: 7
+  samples: 100
+  orbitDays: 60190
 --- !u!1 &2109083855 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1767192433, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}

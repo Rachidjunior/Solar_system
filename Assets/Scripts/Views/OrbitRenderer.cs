@@ -5,8 +5,8 @@ using System;
 public class OrbitRenderer : MonoBehaviour
 {
     public PlanetData.Planet planet;
-    public int samples = 100;       // nombre de points de l'orbite
-    public float orbitDays = 365f;  // période à afficher
+    public int samples = 100;
+    public float orbitDays = 365f;
 
     LineRenderer lineRenderer;
 
@@ -14,8 +14,8 @@ public class OrbitRenderer : MonoBehaviour
     {
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.loop = true;
-        lineRenderer.startWidth = 0.05f;
-        lineRenderer.endWidth = 0.05f;
+        lineRenderer.startWidth = 0.02f;
+        lineRenderer.endWidth = 0.02f;
     }
 
     public void DrawOrbit(IPlanetEphemerisService ephemeris, DateTime start)
