@@ -6,11 +6,12 @@ public class AppBootstrapper : MonoBehaviour
     public SolarSystemConfig config;
     public PlanetView[] planets;
     public TimeController timeController;
-    public OrbitRenderer[] orbits;   // ← nouveau tableau d'orbites
+    public OrbitRenderer[] orbits;
+    public FocusController focusController;   // ← AJOUT : référence au FocusController
 
     TimeModel timeModel;
     PlanetSystemController controller;
-    IPlanetEphemerisService ephemeris;  // ← stocké pour les orbites
+    IPlanetEphemerisService ephemeris;
 
     void Start()
     {
@@ -35,12 +36,19 @@ public class AppBootstrapper : MonoBehaviour
         // 5. Dessiner les orbites
         DrawAllOrbits();
 
+        // 6. Passer le timeModel au FocusController
+        // AJOUT : FocusController a besoin de timeModel pour afficher
+        // la date simulée dans le panel UI. TimeModel est une classe C# pure
+        // donc il ne peut pas être assigné via l'Inspecteur — on le passe ici.
+        if (focusController != null)
+            focusController.timeModel = timeModel;
+
         Debug.Log("[BOOT] Done — Planets: " + planets.Length);
     }
 
     void DrawAllOrbits()
     {
-        if (orbits == null) return;   // sécurité si pas assigné
+        if (orbits == null) return;
 
         foreach (var orbit in orbits)
         {
