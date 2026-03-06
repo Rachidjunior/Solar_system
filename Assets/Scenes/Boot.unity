@@ -4006,6 +4006,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.54
       objectReference: {fileID: 0}
+    - target: {fileID: 1767192437, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 153982007679157697, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4988,7 +4992,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072572772}
   m_LocalRotation: {x: -0, y: -0.52972174, z: -0, w: 0.84817153}
-  m_LocalPosition: {x: 0, y: 0, z: -3.28}
+  m_LocalPosition: {x: 0, y: 0, z: -2.91}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4998,7 +5002,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -63.973, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.94, y: -0.11}
+  m_AnchoredPosition: {x: 1.65, y: -0.03}
   m_SizeDelta: {x: 600, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1072572777
@@ -5036,8 +5040,8 @@ MonoBehaviour:
   refreshRate: 0.5
   ignoredMessages:
   - audio listener
-  - There are 2 audio listeners in the scene.
-  - 'Please ensure there is always exactly one audio listener in the scene. '
+  - 2 audio listeners
+  - Updating planets
   - XR Plug-in Management
   - Fallback handler
 --- !u!1 &1144176533
@@ -6852,16 +6856,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866577637}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: 0.96276605, z: -0, w: 0.27033597}
+  m_LocalPosition: {x: 0, y: 0, z: -23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1072572776}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 148.631, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1, y: 0}
+  m_AnchoredPosition: {x: -39, y: 0}
   m_SizeDelta: {x: 560, y: 380}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1866577639

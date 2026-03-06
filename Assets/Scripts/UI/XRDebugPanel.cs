@@ -81,11 +81,23 @@ public class XRDebugPanel : MonoBehaviour
     {
         if (text == null) return;
 
-        // ── Filtre les messages à ignorer ──
-        foreach (string ignored in ignoredMessages)
+        // ── Filtres fixes ──
+        if (logString.Contains("audio listener")) return;
+        if (logString.Contains("Audio listener")) return;
+        if (logString.Contains("There are 2 audio")) return;
+        if (logString.Contains("AudioListener")) return;
+        if (logString.Contains("XR Plug-in")) return;
+        if (logString.Contains("Fallback handler")) return;
+        if (logString.Contains("Updating planets")) return; 
+
+        // ── Filtres configurables depuis l'Inspecteur ──
+        if (ignoredMessages != null)
         {
-            if (logString.Contains(ignored))
-                return;
+            foreach (string ignored in ignoredMessages)
+            {
+                if (!string.IsNullOrEmpty(ignored) && logString.Contains(ignored))
+                    return;
+            }
         }
 
         string prefix = type == LogType.Warning  ? "[WARN] " :
