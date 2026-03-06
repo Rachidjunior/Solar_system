@@ -1,0 +1,6752 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2>
+struct InterfaceFuncInvoker2
+{
+	typedef R (*Func)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+
+struct Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B;
+struct Action_1_tB8CA4FD5AE31D22DB74D262F9D03ACFA1C0B2CA8;
+struct Action_1_tCB862C932EAF49C2968D3AD96CEDF6D2DFED41F0;
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+struct Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97;
+struct Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1;
+struct BindableVariable_1_tAB8C2D23769D801C8E39D4AA927DD23AF0E6816C;
+struct Dictionary_2_t2FB52A1C9A5EF3BE7F06D41CF41259B9A0296ABC;
+struct Dictionary_2_t1A8FC8C012681D4B964E7A8A383FD3E718078AE9;
+struct Dictionary_2_t9B20C3EBA931E014FB6496226DAB71B59F7CC4EC;
+struct Dictionary_2_tF1266609C0E9EDEC0BE227973F4B2C73474967DD;
+struct Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180;
+struct ExposedRegistrationList_1_t5A8F910702E4299554291FBA6E5E87D64C1EAE66;
+struct ExposedRegistrationList_1_t813417BD96B66B051D5AE2B9485DDCEFD7D93505;
+struct ExposedRegistrationList_1_t049303BDFCFEC5779F414D57C6B8C379C73E1D0F;
+struct Func_3_t3C59F9322C032EF2EC419F9538F86DFC0F4B1421;
+struct Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C;
+struct Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5;
+struct HashSetList_1_tCF3541C1916DB23E3E8D3E2D2C675B59FE3ACBAF;
+struct HashSetList_1_tCE34B4C28F58D67E795B058A35AD8A457BFB1175;
+struct HashSetList_1_t85FA4F6EDCA9A84D235398F53ED390EE2CE4DC98;
+struct HashSetList_1_tC0FA4922B36F37C46BA57A5B55C8B0A1FF78D9A2;
+struct HashSet_1_t109CCE87260348881F7ED50EEE3FFD003542DC8B;
+struct HashSet_1_t91EA27B234497F73858A13093DC591352DFD339A;
+struct LinkedPool_1_t6A6017AF114EF397084F1333559D0DB9CCE28598;
+struct LinkedPool_1_t903D30868AECB20DD006FC2E04DDC68D822C3450;
+struct List_1_tC3125D359B5BFC11439B1C3D9D6620A529B03EF0;
+struct List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252;
+struct List_1_tB0C796BACCE72002824004B31D3AFE084C3BFC75;
+struct List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607;
+struct List_1_t9A2E2984B23260AECDFA90CEB1F2887075FA4DF3;
+struct List_1_tCFCD970A7548BC894D178194E5028E3E294AF3B9;
+struct SmallRegistrationList_1_t9EDBEA3777BFA67BCBEF81995A46114F66307023;
+struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
+struct UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A;
+struct UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B;
+struct UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E;
+struct UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205;
+struct UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8;
+struct UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B;
+struct UnityObjectReferenceCache_2_tE99191D5351A0E7FAC9799B6A790D4532F56BDC1;
+struct TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259;
+struct DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA;
+struct HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622;
+struct HorizontalAlignmentOptionsU5BU5D_t4D185662282BFB910D8B9A8199E91578E9422658;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D;
+struct MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct OrbitRendererU5BU5D_t3871DE0D0A883E776AEB43A13B496A6AD7BD589A;
+struct PlanetViewU5BU5D_tE9962DCDF581BEFB6A9B8CD706D54C687D5B21A5;
+struct RichTextTagAttributeU5BU5D_t5816316EFD8F59DBC30B9F88E15828C564E47B6D;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99;
+struct TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A;
+struct TMP_SubMeshUIU5BU5D_tC77B263183A59A75345C26152457207EAC3BBF29;
+struct UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9;
+struct SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4;
+struct TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113;
+struct ActivateEvent_tA1D392B588AC99958CB847AE6911DC5131BCFB43;
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;
+struct AppBootstrapper_tBA0BA4AFDB0CC47F21EE529084266ABEE976EA58;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct DeactivateEvent_tFE44262C3D8377F947FD46D4561BB9DAC7E0785D;
+struct Delegate_t;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2;
+struct FocusController_t69DF474A9FDBB271168B5678FE5FA40C7D997D0B;
+struct FocusEnterEvent_tF5369B418FFFBE1C6FDE6EBDDD8B9E412A32CD90;
+struct FocusExitEvent_tFAE8003B7B5A47FB4D9C5BB14D7A3273AF8931AE;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB;
+struct HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832;
+struct IPlanetEphemerisService_tBE8082A231527B804C437A797C7F14AFADE4F95F;
+struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
+struct IXRAimAssist_t6F48E543FC58FB68B147F70D086492B00FDA315D;
+struct IXRInteractable_t094DA697CF40A061C2820FDE5B5838D08D7E9609;
+struct IXRInteractionGroup_tE179A88275A6C646BAC9BF131BDE92552FC664C0;
+struct IXRInteractor_tD834ADD95D200FFEC6473A23E515DCD02B33CF97;
+struct IXRSelectInteractor_tF89F25345282BDE348CC5A11BBACE44810BD29CC;
+struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
+struct LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A;
+struct LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6;
+struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
+struct PlanetEphemerisService_t7443928C4AE29216ABAB23BA9C3D7F73E57782BB;
+struct PlanetSelectable_t954CD76C7D7BF93862A6B4DC851343B3CD88D819;
+struct PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F;
+struct PlanetSystemController_tDF347284C8248A5FC2B77F950CD7B6E95AE073E0;
+struct PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5;
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB;
+struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
+struct SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0;
+struct SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938;
+struct SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6;
+struct SelectExitEventArgs_t56125CE0360D37AC0B50EB6066B5AB5957EF559A;
+struct SolarScaleController_tDEC02806152196DD5806061F2ED463CEBC108A4A;
+struct SolarSystemConfig_tE69174DA3F19231A84DF400DC89DAEF9BEC67679;
+struct SolarSystemGrabHandler_t1FE79F78B56B0CC0EAB2160FAE0385623892B56D;
+struct String_t;
+struct TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35;
+struct TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB;
+struct TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160;
+struct TMP_SpriteAnimator_t2E0F016A61CA343E3222FF51E7CF0E53F9F256E4;
+struct TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39;
+struct TMP_Style_tA9E5B1B35EBFE24EF980CEA03251B638282E120C;
+struct TMP_StyleSheet_t70C71699F5CB2D855C361DBB78A44C901236C859;
+struct TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5;
+struct TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D;
+struct TeleportationMonitor_tC9AB34520A1A0D6D2F18DD2067601DE1405C72C6;
+struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct TimeController_t88BC4B61475E406AB50F5164D3BE736032BDB92B;
+struct TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E;
+struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4;
+struct XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B;
+struct XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD;
+struct XRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2;
+struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
+struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IPlanetEphemerisService_tBE8082A231527B804C437A797C7F14AFADE4F95F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PlanetEphemerisService_t7443928C4AE29216ABAB23BA9C3D7F73E57782BB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PlanetSystemController_tDF347284C8248A5FC2B77F950CD7B6E95AE073E0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Planet_t2E7D91CC5C418DA36A4A9D5904C017B41636E873_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____708B68E59BB72C32DC23A85F9BEE0A124A5E652642356DCF26DA12B7CD54D5BD_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____7802D5DD0401ECD54DC7371D2F6AC74549D0537C14ADFD8D5A968D146F8122EE_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral00108E2D1F1D2422A25217F90F06036258144B68;
+IL2CPP_EXTERN_C String_t* _stringLiteral0ACC300B9CB0C395D9A6CED9D0335366D382F0DA;
+IL2CPP_EXTERN_C String_t* _stringLiteral109265A5F34EF56AEDEC3D511758F74484C5FE18;
+IL2CPP_EXTERN_C String_t* _stringLiteral144781AFE758166299B4E92795C1255BA466656B;
+IL2CPP_EXTERN_C String_t* _stringLiteral1AB3394C1297FB60109AB89AF4030AA45726658A;
+IL2CPP_EXTERN_C String_t* _stringLiteral35ACB1B9E1A47D348CA9A39440394AD932D9395E;
+IL2CPP_EXTERN_C String_t* _stringLiteral4D30E33833978ED921AD64D69EC83D5BB8D1712D;
+IL2CPP_EXTERN_C String_t* _stringLiteral5841E3ABF1BBB05DBEC4EAE8DE114E6DFD1C4319;
+IL2CPP_EXTERN_C String_t* _stringLiteral664289565F4643C0B88B589E150210CCF50F9337;
+IL2CPP_EXTERN_C String_t* _stringLiteral6D093746C2695647AAB0E694B1462C1BC3DA1D6D;
+IL2CPP_EXTERN_C String_t* _stringLiteral721FFD93E5E87A62AA029D1733853D1D95472561;
+IL2CPP_EXTERN_C String_t* _stringLiteral73D9C88DD061503C8E495188F237E1901308C684;
+IL2CPP_EXTERN_C String_t* _stringLiteralA31F6D946A06019C5E95C01027D06B0DB44F65E8;
+IL2CPP_EXTERN_C String_t* _stringLiteralAFDBB952AA5AC790DD38A9D7011E28C3230D3FB0;
+IL2CPP_EXTERN_C String_t* _stringLiteralBA855CD78B95A8C4D1BCDFD4F3198CC30773999F;
+IL2CPP_EXTERN_C String_t* _stringLiteralBCF0ED813C341816D730826DA5E6B02C30A25F7C;
+IL2CPP_EXTERN_C String_t* _stringLiteralD68B342FC478E02B02A83610669ACA863FF4BD6A;
+IL2CPP_EXTERN_C String_t* _stringLiteralEBC8FD0525340E70396C5D80C493F537AC3F2640;
+IL2CPP_EXTERN_C String_t* _stringLiteralFB30FA41E7EA3D5149BBDBE13C06527349DBC843;
+IL2CPP_EXTERN_C const RuntimeMethod* AppBootstrapper_DrawAllOrbits_mB6C0FE077B888DE26F392268922735C6ED53B7D9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AppBootstrapper_Start_mD90B984181867A1C4CA907550F3D4EDA7A110C0B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AppBootstrapper__ctor_m7AE3C523685AF7846DD54E4E168CFAAD294D08C6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m4F17B3CA1E7FFB03C7682312A59B9185E0F67C49_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisXRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B_m49377F1D0DBAB9BDC59DFC6851E9A5D687717C14_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisXRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2_mCD65FB49B5B2DEBC4220E932DE850CEE5CADA8F2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* FocusController_FocusOn_mF4A6A8E4FBD9CAD7DE5E0230D72CE38455C904DE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* FocusController_GetDistance_m379C83B7408C2FC3AF45789D1676801585C607DC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* FocusController_GetPeriod_mC97E9ACF143C376CAD7C1AA1EBBC857A27B6F7EC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* FocusController_OnDestroy_mCB8AA76F61DABE96448C8BA8CEA3F85A512AC47A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* FocusController_Start_mDD09402A21D9A1DA6A4B007219F9065247E50079_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* FocusController_UpdateUI_m4A03F880E5973F470D29EBEF04145D95AE2E8988_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* FocusController__ctor_mE8D19EAFB6636362DA4821D94E8D16A5E4A039E4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisXRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2_mC032C1A1B4A90613D1FBF9CFEF7ED35707AAA0CD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OrbitRenderer_Awake_m9E2B4DD0886424EA77947F0856AA8C7BA4EEC7C9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OrbitRenderer_DrawOrbit_mB83BDA033EE37AE86BD45CEBF6D9C9956B91E2F6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OrbitRenderer__ctor_m0359C8A0394175EF912F20F5A41FDA02DCFF7737_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetData_GetPlanetPosition_m7B39B09FC8BBDE24E778C38C1EE51FBE8F965D08_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetEphemerisService_GetPlanetPosition_m7AD711235E486DADF478199B3A7BC8FF3F3A799E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetEphemerisService__ctor_m94515B99553FCD39C385508FDDC8595A156F5787_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetSelectable_Awake_m6F9EE508EA302A6E1599979E6608DCA8429E84A0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetSelectable_OnDestroy_m98226441D8F105E70F5EB8145F63B1E1AEEB9ABF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetSelectable_OnSelected_m8943D8F036AF93F9BD213A94F7ABFA901189AF52_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetSelectable__ctor_m493713FA6A63A2D93527750377A9B9E6D8F587A1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetSelectionSystem_Awake_m17BE7D2377991ABB11BD1EE307E797AF15381897_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetSelectionSystem_GetActivePlanet_mCA8C9D76E59D766E9B848692CBA132BCFC4EB1D1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetSelectionSystem_SelectPlanet_m69307A1AA219D912A54A67D715E64CCC56DA07E6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetSelectionSystem__ctor_mAB9EAFD6AE2903AF0A50A8C43B841312CF11DC3B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetSelectionSystem_add_OnPlanetSelected_mC4B1B1B38815342290539A930CCD932E92F9A7EA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetSelectionSystem_get_Instance_m3076E0BB0559AF84BAC77DD6E674E097623D6B11_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetSelectionSystem_remove_OnPlanetSelected_m75012C3D33352F487355605314E80DD3B4DCC5F5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetSelectionSystem_set_Instance_mD187491952B8071496BCA49E6381CB3A2BFA3C42_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetSystemController_UpdatePlanets_mC40EB07A751A1EC6B4E8F4D6DE462D2DD7E7615A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetSystemController__ctor_m084A0B36D89C3FDA7907AECE69AFAA91C21FDB54_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetView_SetPosition_m7111B3E7814EC1C90865817F43A4AB97CEF5323A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetView_Start_m22400629A89FB230F8FA0C3A82B24EEF75EDDCD0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlanetView__ctor_m686C3996C2D1094BBC098D6D991F82A1D8A4EC04_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SolarScaleController_ApplyScale_mFF7C4727740D03A88E3152986558A00F594D133E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SolarScaleController_ScaleDown_mD22F3F027444F83E3D53296CC37411166FA9C0CD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SolarScaleController_ScaleUp_m5BD9958D0F9F0AB43AB15838696ECF2A61A6E7B9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SolarScaleController_SetScale_mFDA90DCE823B0CDC37D7D146DF8F9973C8DF198E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SolarScaleController_Start_m302B6068E84C67EE3C34E02D72AA42C2E9C0B04E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SolarScaleController__ctor_m12C14AE8D9BEC231163A9C20F26B7A4098707BC6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SolarSystemConfig__ctor_m91D549590447C68D45DC592D0430F32465525D43_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SolarSystemGrabHandler_Awake_mCD1F73E94023BC9F9609CF35ACA64CD09576918E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SolarSystemGrabHandler_OnDestroy_mD5A6A024653427FCC50DD273B5BFCB808477BE84_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SolarSystemGrabHandler_OnGrabbed_m1E27E36E8D371360A194DCF40F147AD9BFDC794C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SolarSystemGrabHandler_OnReleased_m8E09E902173FE6C48AD0C74657B10FF6267F235D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SolarSystemGrabHandler__ctor_m18B7233E8811F55DD9D49FA1B2E476C950B5CCC9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeController_Init_m5963631F4A2D75BFB3199CF2E74C43E9F97A137F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeController_Update_m57D293CB781C000471D6956718F27FBD706C0467_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeController__ctor_m41C4F7E9D264A74A7E5D8F0EA3929D27875446FF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeModel_Pause_m2BA8ACE2D05537505D93EDD4C69DCCDD4A0BD0BF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeModel_Play_m497F34894FFFE58535A49BC431C3599248B694B8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeModel_SetScale_mC2ED8F2D4EBDCBA81701D5BBDF8B382F0DB62A74_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeModel_SetTime_mD352602897B5A617FEA7F0CD583204C0A5D886D0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeModel__ctor_mF88124F338842BFEDA37F1E0530EFA931DCA9534_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeModel_add_OnTimeChanged_m08D20382DA01839697DCEEB9049253E4AA7EE36B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeModel_get_CurrentTime_m07C8E81C1FC0B3B52F4F9E26693735B2C9BE18EB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeModel_get_IsPlaying_m9B481B130E5D51B56BEB2D1ED9A7F84399F09717_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeModel_get_TimeScale_m5E371E864917AA319FDE009D50EF0C1308BED272_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeModel_remove_OnTimeChanged_mA3459156D4281E6007CF57E01DBF91C0958BBA19_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeModel_set_CurrentTime_m36E3B9FE7E695168CA0ADBCC5A36338F759685FF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeModel_set_IsPlaying_m724051B020B45FE504A3B386BE0207E0D76C1981_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TimeModel_set_TimeScale_m6F7D6E37ACA1B66DAE428B6DEFC40E941451CA08_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct OrbitRendererU5BU5D_t3871DE0D0A883E776AEB43A13B496A6AD7BD589A;
+struct PlanetViewU5BU5D_tE9962DCDF581BEFB6A9B8CD706D54C687D5B21A5;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B 
+{
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
+{
+};
+struct BaseInteractionEventArgs_t8B38B6C63C6C9EA4BD179EF5FD40106872B82D7E  : public RuntimeObject
+{
+	RuntimeObject* ___U3CinteractorObjectU3Ek__BackingField;
+	RuntimeObject* ___U3CinteractableObjectU3Ek__BackingField;
+};
+struct PlanetData_tCFA6863F7C62BE270355D6AA72435E07156880EC  : public RuntimeObject
+{
+};
+struct PlanetEphemerisService_t7443928C4AE29216ABAB23BA9C3D7F73E57782BB  : public RuntimeObject
+{
+};
+struct PlanetSystemController_tDF347284C8248A5FC2B77F950CD7B6E95AE073E0  : public RuntimeObject
+{
+	TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* ___timeModel;
+	RuntimeObject* ___ephemeris;
+	PlanetViewU5BU5D_tE9962DCDF581BEFB6A9B8CD706D54C687D5B21A5* ___planets;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8  : public RuntimeObject
+{
+	InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382* ___m_Calls;
+	PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25* ___m_PersistentCalls;
+	bool ___m_CallsDirty;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401  : public RuntimeObject
+{
+	String_t* ___heading;
+	String_t* ___text;
+	String_t* ___linkText;
+	String_t* ___url;
+};
+struct TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C 
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___itemStack;
+	int32_t ___index;
+	float ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C 
+{
+	TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A* ___itemStack;
+	int32_t ___index;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D 
+{
+	int32_t ___Item1;
+	int32_t ___Item2;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___rgba;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___rgba_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			uint8_t ___r;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___r_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___g_OffsetPadding[1];
+			uint8_t ___g;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___g_OffsetPadding_forAlignmentOnly[1];
+			uint8_t ___g_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___b_OffsetPadding[2];
+			uint8_t ___b;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___b_OffsetPadding_forAlignmentOnly[2];
+			uint8_t ___b_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___a_OffsetPadding[3];
+			uint8_t ___a;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___a_OffsetPadding_forAlignmentOnly[3];
+			uint8_t ___a_forAlignmentOnly;
+		};
+	};
+};
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D 
+{
+	uint64_t ____dateData;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct InteractionLayerMask_t3B3480A4A5E1E0C43314C0D2CEB3BB39175E1FD4 
+{
+	uint32_t ___m_Bits;
+	int32_t ___m_Mask;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B 
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	bool ___isDefaultMaterial;
+	bool ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B_marshaled_pinvoke
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___isDefaultMaterial;
+	int32_t ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B_marshaled_com
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___isDefaultMaterial;
+	int32_t ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 
+{
+	float ___m00;
+	float ___m10;
+	float ___m20;
+	float ___m30;
+	float ___m01;
+	float ___m11;
+	float ___m21;
+	float ___m31;
+	float ___m02;
+	float ___m12;
+	float ___m22;
+	float ___m32;
+	float ___m03;
+	float ___m13;
+	float ___m23;
+	float ___m33;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D 
+{
+	float ___m_XMin;
+	float ___m_YMin;
+	float ___m_Width;
+	float ___m_Height;
+};
+struct SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938  : public BaseInteractionEventArgs_t8B38B6C63C6C9EA4BD179EF5FD40106872B82D7E
+{
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___U3CmanagerU3Ek__BackingField;
+};
+struct SelectExitEventArgs_t56125CE0360D37AC0B50EB6066B5AB5957EF559A  : public BaseInteractionEventArgs_t8B38B6C63C6C9EA4BD179EF5FD40106872B82D7E
+{
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___U3CmanagerU3Ek__BackingField;
+	bool ___U3CisCanceledU3Ek__BackingField;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC 
+{
+	uint8_t ___bold;
+	uint8_t ___italic;
+	uint8_t ___underline;
+	uint8_t ___strikethrough;
+	uint8_t ___highlight;
+	uint8_t ___superscript;
+	uint8_t ___subscript;
+	uint8_t ___uppercase;
+	uint8_t ___lowercase;
+	uint8_t ___smallcaps;
+};
+struct TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6 
+{
+	float ___m_Left;
+	float ___m_Right;
+	float ___m_Top;
+	float ___m_Bottom;
+};
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
+{
+	int64_t ____ticks;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D370_t2E1FB44952FA2582214F7104C09A0C49A589A994 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D370_t2E1FB44952FA2582214F7104C09A0C49A589A994__padding[370];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D835_t7E93CBB82A104A0452286118615CF62437A0EF60 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D835_t7E93CBB82A104A0452286118615CF62437A0EF60__padding[835];
+	};
+};
+#pragma pack(pop, tp)
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777_marshaled_pinvoke
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777_marshaled_com
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361 
+{
+	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___m_Array;
+	int32_t ___m_Index;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___m_Array;
+	int32_t ___m_Index;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361_marshaled_com
+{
+	Il2CppSafeArray* ___m_Array;
+	int32_t ___m_Index;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 
+{
+	Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* ___itemStack;
+	int32_t ___index;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 
+{
+	MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* ___itemStack;
+	int32_t ___index;
+	MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct ColorMode_tA7A815AAB9F175EFBA0AE0814E55728432A880BF 
+{
+	int32_t ___value__;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___min;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___max;
+};
+struct FontStyles_t9E611EE6BBE6E192A73EAFF7872596517C527FF5 
+{
+	int32_t ___value__;
+};
+struct FontWeight_tA2585C0A73B70D31CE71E7843149098A5E16BC80 
+{
+	int32_t ___value__;
+};
+struct HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B 
+{
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___color;
+	TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6 ___padding;
+};
+struct HorizontalAlignmentOptions_tCC21260E9FBEC656BA7783643ED5F44AFF7955A1 
+{
+	int32_t ___value__;
+};
+struct InteractableFarAttachMode_tBEAC1C5CACAB52E0187607733222A3BB64094BF9 
+{
+	int32_t ___value__;
+};
+struct InteractableFocusMode_tD8F528B65B8FA0E9C71F8A7BCABD7F99BA5982CB 
+{
+	int32_t ___value__;
+};
+struct InteractableSelectMode_tEEBF3D8EB75149E3417BDA4C0BC6A1C27BB25AC7 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation;
+};
+struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
+{
+	intptr_t ___m_Ptr;
+};
+struct RigidbodyInterpolation_tE2BE80352B0D72DB26B81EFD5A0845DEFEE994F8 
+{
+	int32_t ___value__;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0  : public UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8
+{
+};
+struct SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6  : public UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B
+{
+};
+struct TMP_TextElementType_t51EE6662436732F22C6B599F5757B7F35F706342 
+{
+	int32_t ___value__;
+};
+struct TextAlignmentOptions_tF3FA9020F7E2AF1A48660044540254009A22EF01 
+{
+	int32_t ___value__;
+};
+struct TextOverflowModes_t7DCCD00C16E3223CE50CDDCC53F785C0405BE203 
+{
+	int32_t ___value__;
+};
+struct TextRenderFlags_tE023FF398ECFE57A1DBC6FD2A1AF4AE9620F6E1C 
+{
+	int32_t ___value__;
+};
+struct TextWrappingModes_t982BC65D6DA703E73C04B99286285ECD3DDF207E 
+{
+	int32_t ___value__;
+};
+struct TextureMappingOptions_t0E1A47C529DEB45A875486256E7026E97C940DAE 
+{
+	int32_t ___value__;
+};
+struct TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC  : public RuntimeObject
+{
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___U3CCurrentTimeU3Ek__BackingField;
+	float ___U3CTimeScaleU3Ek__BackingField;
+	bool ___U3CIsPlayingU3Ek__BackingField;
+	Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* ___OnTimeChanged;
+};
+struct VertexGradient_t2C057B53C0EA6E987C2B7BAB0305E686DA1C9A8F 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___topLeft;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___topRight;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___bottomLeft;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___bottomRight;
+};
+struct VertexSortingOrder_t95B7AEDBDCAACC3459B6476E5CCC594A6422FFA8 
+{
+	int32_t ___value__;
+};
+struct VerticalAlignmentOptions_tCEF70AF60282B71AEEE14D51253CE6A61E72D855 
+{
+	int32_t ___value__;
+};
+struct KeplerParameter_tFB43CB652A950F275B0FB78CD61EC9AF9A7690A4 
+{
+	int32_t ___value__;
+};
+struct Planet_t2E7D91CC5C418DA36A4A9D5904C017B41636E873 
+{
+	int32_t ___value__;
+};
+struct TextInputSources_t41387D6C9CB16E60390F47A15AEB8185BE966D26 
+{
+	int32_t ___value__;
+};
+struct DistanceCalculationMode_tE85298033372A2D44BB92F8728EA55B845089383 
+{
+	int32_t ___value__;
+};
+struct MovementType_t697AC887A071F65C3F1D4575879BE6A7E419CCCF 
+{
+	int32_t ___value__;
+};
+struct TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 
+{
+	FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D 
+{
+	HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622* ___itemStack;
+	int32_t ___index;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 
+{
+	HorizontalAlignmentOptionsU5BU5D_t4D185662282BFB910D8B9A8199E91578E9422658* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 
+{
+	int32_t ___controlCharacterCount;
+	int32_t ___characterCount;
+	int32_t ___visibleCharacterCount;
+	int32_t ___spaceCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___wordCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharacterIndex;
+	float ___length;
+	float ___lineHeight;
+	float ___ascender;
+	float ___baseline;
+	float ___descender;
+	float ___maxAdvance;
+	float ___width;
+	float ___marginLeft;
+	float ___marginRight;
+	int32_t ___alignment;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___lineExtents;
+};
+struct Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B  : public MulticastDelegate_t
+{
+};
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87  : public MulticastDelegate_t
+{
+};
+struct Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97  : public MulticastDelegate_t
+{
+};
+struct UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B  : public MulticastDelegate_t
+{
+};
+struct UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E  : public MulticastDelegate_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___icon;
+	String_t* ___title;
+	SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4* ___sections;
+	bool ___loadedLayout;
+};
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct SolarSystemConfig_tE69174DA3F19231A84DF400DC89DAEF9BEC67679  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	float ___distanceScale;
+	float ___planetSizeScale;
+	bool ___showOrbits;
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A 
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	bool ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	bool ___tagNoParsing;
+	bool ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_marshaled_pinvoke
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	int32_t ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	int32_t ___tagNoParsing;
+	int32_t ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_marshaled_com
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	int32_t ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	int32_t ___tagNoParsing;
+	int32_t ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F 
+{
+	WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9* ___itemStack;
+	int32_t ___index;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D  : public Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct AppBootstrapper_tBA0BA4AFDB0CC47F21EE529084266ABEE976EA58  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	SolarSystemConfig_tE69174DA3F19231A84DF400DC89DAEF9BEC67679* ___config;
+	PlanetViewU5BU5D_tE9962DCDF581BEFB6A9B8CD706D54C687D5B21A5* ___planets;
+	TimeController_t88BC4B61475E406AB50F5164D3BE736032BDB92B* ___timeController;
+	OrbitRendererU5BU5D_t3871DE0D0A883E776AEB43A13B496A6AD7BD589A* ___orbits;
+	FocusController_t69DF474A9FDBB271168B5678FE5FA40C7D997D0B* ___focusController;
+	TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* ___timeModel;
+	PlanetSystemController_tDF347284C8248A5FC2B77F950CD7B6E95AE073E0* ___controller;
+	RuntimeObject* ___ephemeris;
+};
+struct FocusController_t69DF474A9FDBB271168B5678FE5FA40C7D997D0B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___infoPanel;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___planetNameText;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___distanceText;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___periodText;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___dateText;
+	TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* ___timeModel;
+	PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* ___focusedPlanet;
+};
+struct OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___planet;
+	int32_t ___samples;
+	float ___orbitDays;
+	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ___lineRenderer;
+};
+struct PlanetSelectable_t954CD76C7D7BF93862A6B4DC851343B3CD88D819  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* ___planetView;
+	XRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2* ___interactable;
+};
+struct PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* ___OnPlanetSelected;
+	PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* ___activePlanet;
+};
+struct PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___planet;
+	float ___displaySize;
+};
+struct SolarScaleController_tDEC02806152196DD5806061F2ED463CEBC108A4A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___solarSystemRoot;
+	float ___minScale;
+	float ___maxScale;
+	float ___currentScale;
+};
+struct SolarSystemGrabHandler_t1FE79F78B56B0CC0EAB2160FAE0385623892B56D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* ___grabInteractable;
+};
+struct TimeController_t88BC4B61475E406AB50F5164D3BE736032BDB92B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___secondsPerDay;
+	TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* ___model;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___current;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Action_1_tB8CA4FD5AE31D22DB74D262F9D03ACFA1C0B2CA8* ___registered;
+	Action_1_tCB862C932EAF49C2968D3AD96CEDF6D2DFED41F0* ___unregistered;
+	Func_3_t3C59F9322C032EF2EC419F9538F86DFC0F4B1421* ___U3CgetDistanceOverrideU3Ek__BackingField;
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___m_InteractionManager;
+	List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252* ___m_Colliders;
+	InteractionLayerMask_t3B3480A4A5E1E0C43314C0D2CEB3BB39175E1FD4 ___m_InteractionLayers;
+	int32_t ___m_DistanceCalculationMode;
+	int32_t ___m_SelectMode;
+	int32_t ___m_FocusMode;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_CustomReticle;
+	bool ___m_AllowGazeInteraction;
+	bool ___m_AllowGazeSelect;
+	bool ___m_OverrideGazeTimeToSelect;
+	float ___m_GazeTimeToSelect;
+	bool ___m_OverrideTimeToAutoDeselectGaze;
+	float ___m_TimeToAutoDeselectGaze;
+	bool ___m_AllowGazeAssistance;
+	HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* ___m_FirstHoverEntered;
+	HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* ___m_LastHoverExited;
+	HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* ___m_HoverEntered;
+	HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* ___m_HoverExited;
+	SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* ___m_FirstSelectEntered;
+	SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* ___m_LastSelectExited;
+	SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* ___m_SelectEntered;
+	SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* ___m_SelectExited;
+	FocusEnterEvent_tF5369B418FFFBE1C6FDE6EBDDD8B9E412A32CD90* ___m_FirstFocusEntered;
+	FocusExitEvent_tFAE8003B7B5A47FB4D9C5BB14D7A3273AF8931AE* ___m_LastFocusExited;
+	FocusEnterEvent_tF5369B418FFFBE1C6FDE6EBDDD8B9E412A32CD90* ___m_FocusEntered;
+	FocusExitEvent_tFAE8003B7B5A47FB4D9C5BB14D7A3273AF8931AE* ___m_FocusExited;
+	ActivateEvent_tA1D392B588AC99958CB847AE6911DC5131BCFB43* ___m_Activated;
+	DeactivateEvent_tFE44262C3D8377F947FD46D4561BB9DAC7E0785D* ___m_Deactivated;
+	HashSetList_1_tCF3541C1916DB23E3E8D3E2D2C675B59FE3ACBAF* ___m_InteractorsHovering;
+	bool ___U3CisHoveredU3Ek__BackingField;
+	HashSetList_1_t85FA4F6EDCA9A84D235398F53ED390EE2CE4DC98* ___m_InteractorsSelecting;
+	RuntimeObject* ___U3CfirstInteractorSelectingU3Ek__BackingField;
+	bool ___U3CisSelectedU3Ek__BackingField;
+	HashSetList_1_tCE34B4C28F58D67E795B058A35AD8A457BFB1175* ___m_InteractionGroupsFocusing;
+	RuntimeObject* ___U3CfirstInteractionGroupFocusingU3Ek__BackingField;
+	bool ___U3CisFocusedU3Ek__BackingField;
+	List_1_t9A2E2984B23260AECDFA90CEB1F2887075FA4DF3* ___m_StartingHoverFilters;
+	ExposedRegistrationList_1_t5A8F910702E4299554291FBA6E5E87D64C1EAE66* ___m_HoverFilters;
+	List_1_t9A2E2984B23260AECDFA90CEB1F2887075FA4DF3* ___m_StartingSelectFilters;
+	ExposedRegistrationList_1_t049303BDFCFEC5779F414D57C6B8C379C73E1D0F* ___m_SelectFilters;
+	List_1_t9A2E2984B23260AECDFA90CEB1F2887075FA4DF3* ___m_StartingInteractionStrengthFilters;
+	ExposedRegistrationList_1_t813417BD96B66B051D5AE2B9485DDCEFD7D93505* ___m_InteractionStrengthFilters;
+	bool ___m_AutoFindParentInteractableInHierarchy;
+	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___m_ParentInteractableObject;
+	UnityObjectReferenceCache_2_tE99191D5351A0E7FAC9799B6A790D4532F56BDC1* ___m_ParentInteractableObjectReference;
+	BindableVariable_1_tAB8C2D23769D801C8E39D4AA927DD23AF0E6816C* ___m_LargestInteractionStrength;
+	bool ___m_ClearedLargestInteractionStrength;
+	Dictionary_2_t9B20C3EBA931E014FB6496226DAB71B59F7CC4EC* ___m_AttachPoseOnSelect;
+	Dictionary_2_t9B20C3EBA931E014FB6496226DAB71B59F7CC4EC* ___m_LocalAttachPoseOnSelect;
+	Dictionary_2_t2FB52A1C9A5EF3BE7F06D41CF41259B9A0296ABC* ___m_ReticleCache;
+	HashSetList_1_tC0FA4922B36F37C46BA57A5B55C8B0A1FF78D9A2* ___m_VariableSelectInteractors;
+	Dictionary_2_t1A8FC8C012681D4B964E7A8A383FD3E718078AE9* ___m_InteractionStrengths;
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___m_RegisteredInteractionManager;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
+};
+struct XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B  : public XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_AttachTransform;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_SecondaryAttachTransform;
+	bool ___m_UseDynamicAttach;
+	bool ___m_MatchAttachPosition;
+	bool ___m_MatchAttachRotation;
+	bool ___m_SnapToColliderVolume;
+	bool ___m_ReinitializeDynamicAttachEverySingleGrab;
+	float ___m_AttachEaseInTime;
+	int32_t ___m_MovementType;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_PredictedVisualsTransform;
+	float ___m_VelocityDamping;
+	float ___m_VelocityScale;
+	float ___m_AngularVelocityDamping;
+	float ___m_AngularVelocityScale;
+	bool ___m_TrackPosition;
+	bool ___m_SmoothPosition;
+	float ___m_SmoothPositionAmount;
+	float ___m_TightenPosition;
+	bool ___m_TrackRotation;
+	bool ___m_SmoothRotation;
+	float ___m_SmoothRotationAmount;
+	float ___m_TightenRotation;
+	bool ___m_TrackScale;
+	bool ___m_SmoothScale;
+	float ___m_SmoothScaleAmount;
+	float ___m_TightenScale;
+	bool ___m_ThrowOnDetach;
+	float ___m_ThrowSmoothingDuration;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___m_ThrowSmoothingCurve;
+	float ___m_ThrowVelocityScale;
+	float ___m_ThrowAngularVelocityScale;
+	bool ___m_ForceGravityOnDetach;
+	bool ___m_RetainTransformParent;
+	List_1_tCFCD970A7548BC894D178194E5028E3E294AF3B9* ___m_StartingSingleGrabTransformers;
+	List_1_tCFCD970A7548BC894D178194E5028E3E294AF3B9* ___m_StartingMultipleGrabTransformers;
+	bool ___m_AddDefaultGrabTransformers;
+	int32_t ___m_FarAttachMode;
+	bool ___m_LimitLinearVelocity;
+	bool ___m_LimitAngularVelocity;
+	float ___m_MaxLinearVelocityDelta;
+	float ___m_MaxAngularVelocityDelta;
+	bool ___U3CallowVisualAttachTransformU3Ek__BackingField;
+	SmallRegistrationList_1_t9EDBEA3777BFA67BCBEF81995A46114F66307023* ___m_SingleGrabTransformers;
+	SmallRegistrationList_1_t9EDBEA3777BFA67BCBEF81995A46114F66307023* ___m_MultipleGrabTransformers;
+	List_1_tB0C796BACCE72002824004B31D3AFE084C3BFC75* ___m_GrabTransformersAddedWhenGrabbed;
+	bool ___m_GrabCountChanged;
+	ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D ___m_GrabCountBeforeAndAfterChange;
+	bool ___m_IsProcessingGrabTransformers;
+	int32_t ___m_DropTransformersCount;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_TargetPose;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_TargetLocalScale;
+	bool ___m_IsTargetPoseDirty;
+	bool ___m_IsTargetLocalScaleDirty;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_Transform;
+	float ___m_CurrentAttachEaseTime;
+	int32_t ___m_CurrentMovementType;
+	bool ___m_DetachInLateUpdate;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_DetachLinearVelocity;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_DetachAngularVelocity;
+	int32_t ___m_ThrowSmoothingCurrentFrame;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___m_ThrowSmoothingFrameTimes;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_ThrowSmoothingLinearVelocityFrames;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_ThrowSmoothingAngularVelocityFrames;
+	bool ___m_ThrowSmoothingFirstUpdate;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_LastThrowReferencePose;
+	RuntimeObject* ___m_ThrowAssist;
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___m_Rigidbody;
+	bool ___m_RigidbodyColliding;
+	bool ___m_RigidbodySetupActive;
+	bool ___m_WasKinematic;
+	bool ___m_UsedGravity;
+	int32_t ___m_InterpolationOnGrab;
+	float ___m_LinearDampingOnGrab;
+	float ___m_AngularDampingOnGrab;
+	int32_t ___m_LastFixedFrame;
+	float ___m_LastFixedDynamicTime;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_InitialVisualsTransformLocalPose;
+	bool ___m_InitialVisualsTransformLocalPoseIsIdentity;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_InitialVisualsTransformLocalScale;
+	bool ___m_IgnoringCharacterCollision;
+	bool ___m_StopIgnoringCollisionInLateUpdate;
+	CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* ___m_SelectingCharacterController;
+	HashSet_1_t91EA27B234497F73858A13093DC591352DFD339A* ___m_SelectingCharacterInteractors;
+	List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252* ___m_RigidbodyColliders;
+	HashSet_1_t109CCE87260348881F7ED50EEE3FFD003542DC8B* ___m_CollidersThatAllowedCharacterCollision;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_OriginalSceneParent;
+	TeleportationMonitor_tC9AB34520A1A0D6D2F18DD2067601DE1405C72C6* ___m_TeleportationMonitor;
+	Dictionary_2_tF1266609C0E9EDEC0BE227973F4B2C73474967DD* ___m_DynamicAttachTransforms;
+	Dictionary_2_tF1266609C0E9EDEC0BE227973F4B2C73474967DD* ___m_VisualAttachTransforms;
+};
+struct XRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2  : public XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4
+{
+};
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	String_t* ___m_text;
+	bool ___m_IsTextBackingStringDirty;
+	RuntimeObject* ___m_TextPreprocessor;
+	bool ___m_isRightToLeft;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___m_fontAsset;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___m_currentFontAsset;
+	bool ___m_isSDFShader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_sharedMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_currentMaterial;
+	int32_t ___m_currentMaterialIndex;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___m_fontSharedMaterials;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_fontMaterial;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___m_fontMaterials;
+	bool ___m_isMaterialDirty;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_fontColor32;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_fontColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___m_HighlightState;
+	bool ___m_ConvertToLinearSpace;
+	bool ___m_enableVertexGradient;
+	int32_t ___m_colorMode;
+	VertexGradient_t2C057B53C0EA6E987C2B7BAB0305E686DA1C9A8F ___m_fontColorGradient;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_fontColorGradientPreset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_spriteAsset;
+	bool ___m_tintAllSprites;
+	bool ___m_tintSprite;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_spriteColor;
+	TMP_StyleSheet_t70C71699F5CB2D855C361DBB78A44C901236C859* ___m_StyleSheet;
+	TMP_Style_tA9E5B1B35EBFE24EF980CEA03251B638282E120C* ___m_TextStyle;
+	int32_t ___m_TextStyleHashCode;
+	bool ___m_overrideHtmlColors;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_faceColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_outlineColor;
+	float ___m_outlineWidth;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_currentEnvMapRotation;
+	bool ___m_hasEnvMapProperty;
+	float ___m_fontSize;
+	float ___m_currentFontSize;
+	float ___m_fontSizeBase;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_sizeStack;
+	int32_t ___m_fontWeight;
+	int32_t ___m_FontWeightInternal;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___m_FontWeightStack;
+	bool ___m_enableAutoSizing;
+	float ___m_maxFontSize;
+	float ___m_minFontSize;
+	int32_t ___m_AutoSizeIterationCount;
+	int32_t ___m_AutoSizeMaxIterationCount;
+	bool ___m_IsAutoSizePointSizeSet;
+	float ___m_fontSizeMin;
+	float ___m_fontSizeMax;
+	int32_t ___m_fontStyle;
+	int32_t ___m_FontStyleInternal;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___m_fontStyleStack;
+	bool ___m_isUsingBold;
+	int32_t ___m_HorizontalAlignment;
+	int32_t ___m_VerticalAlignment;
+	int32_t ___m_textAlignment;
+	int32_t ___m_lineJustification;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___m_lineJustificationStack;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_textContainerLocalCorners;
+	float ___m_characterSpacing;
+	float ___m_cSpacing;
+	float ___m_monoSpacing;
+	bool ___m_duoSpace;
+	float ___m_characterHorizontalScale;
+	float ___m_wordSpacing;
+	float ___m_lineSpacing;
+	float ___m_lineSpacingDelta;
+	float ___m_lineHeight;
+	bool ___m_IsDrivenLineSpacing;
+	float ___m_lineSpacingMax;
+	float ___m_paragraphSpacing;
+	float ___m_charWidthMaxAdj;
+	float ___m_charWidthAdjDelta;
+	int32_t ___m_TextWrappingMode;
+	bool ___m_isCharacterWrappingEnabled;
+	bool ___m_isNonBreakingSpace;
+	bool ___m_isIgnoringAlignment;
+	float ___m_wordWrappingRatios;
+	int32_t ___m_overflowMode;
+	int32_t ___m_firstOverflowCharacterIndex;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___m_linkedTextComponent;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___parentLinkedComponent;
+	bool ___m_isTextTruncated;
+	bool ___m_enableKerning;
+	int32_t ___m_LastBaseGlyphIndex;
+	List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607* ___m_ActiveFontFeatures;
+	bool ___m_enableExtraPadding;
+	bool ___checkPaddingRequired;
+	bool ___m_isRichText;
+	bool ___m_EmojiFallbackSupport;
+	bool ___m_parseCtrlCharacters;
+	bool ___m_isOverlay;
+	bool ___m_isOrthographic;
+	bool ___m_isCullingEnabled;
+	bool ___m_isMaskingEnabled;
+	bool ___isMaskUpdateRequired;
+	bool ___m_ignoreCulling;
+	int32_t ___m_horizontalMapping;
+	int32_t ___m_verticalMapping;
+	float ___m_uvLineOffset;
+	int32_t ___m_renderMode;
+	int32_t ___m_geometrySortingOrder;
+	bool ___m_IsTextObjectScaleStatic;
+	bool ___m_VertexBufferAutoSizeReduction;
+	int32_t ___m_firstVisibleCharacter;
+	int32_t ___m_maxVisibleCharacters;
+	int32_t ___m_maxVisibleWords;
+	int32_t ___m_maxVisibleLines;
+	bool ___m_useMaxVisibleDescender;
+	int32_t ___m_pageToDisplay;
+	bool ___m_isNewPage;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_margin;
+	float ___m_marginLeft;
+	float ___m_marginRight;
+	float ___m_marginWidth;
+	float ___m_marginHeight;
+	float ___m_width;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___m_textInfo;
+	bool ___m_havePropertiesChanged;
+	bool ___m_isUsingLegacyAnimationComponent;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_transform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_rectTransform;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PreviousRectTransformSize;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PreviousPivotPosition;
+	bool ___U3CautoSizeTextContainerU3Ek__BackingField;
+	bool ___m_autoSizeTextContainer;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_mesh;
+	bool ___m_isVolumetricText;
+	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* ___OnPreRenderText;
+	TMP_SpriteAnimator_t2E0F016A61CA343E3222FF51E7CF0E53F9F256E4* ___m_spriteAnimator;
+	float ___m_flexibleHeight;
+	float ___m_flexibleWidth;
+	float ___m_minWidth;
+	float ___m_minHeight;
+	float ___m_maxWidth;
+	float ___m_maxHeight;
+	LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* ___m_LayoutElement;
+	float ___m_preferredWidth;
+	float ___m_RenderedWidth;
+	bool ___m_isPreferredWidthDirty;
+	float ___m_preferredHeight;
+	float ___m_RenderedHeight;
+	bool ___m_isPreferredHeightDirty;
+	bool ___m_isCalculatingPreferredValues;
+	int32_t ___m_layoutPriority;
+	bool ___m_isLayoutDirty;
+	bool ___m_isAwake;
+	bool ___m_isWaitingOnResourceLoad;
+	int32_t ___m_inputSource;
+	float ___m_fontScaleMultiplier;
+	float ___tag_LineIndent;
+	float ___tag_Indent;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_indentStack;
+	bool ___tag_NoParsing;
+	bool ___m_isTextLayoutPhase;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_FXRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_FXScale;
+	TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113* ___m_TextProcessingArray;
+	int32_t ___m_InternalTextProcessingArraySize;
+	TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* ___m_internalCharacterInfo;
+	int32_t ___m_totalCharacterCount;
+	int32_t ___m_characterCount;
+	int32_t ___m_firstCharacterOfLine;
+	int32_t ___m_firstVisibleCharacterOfLine;
+	int32_t ___m_lastCharacterOfLine;
+	int32_t ___m_lastVisibleCharacterOfLine;
+	int32_t ___m_lineNumber;
+	int32_t ___m_lineVisibleCharacterCount;
+	int32_t ___m_lineVisibleSpaceCount;
+	int32_t ___m_pageNumber;
+	float ___m_PageAscender;
+	float ___m_maxTextAscender;
+	float ___m_maxCapHeight;
+	float ___m_ElementAscender;
+	float ___m_ElementDescender;
+	float ___m_maxLineAscender;
+	float ___m_maxLineDescender;
+	float ___m_startOfLineAscender;
+	float ___m_startOfLineDescender;
+	float ___m_lineOffset;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___m_meshExtents;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_htmlColor;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_strikethroughColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___m_HighlightStateStack;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_colorGradientPreset;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___m_colorGradientStack;
+	bool ___m_colorGradientPresetIsTinted;
+	float ___m_tabSpacing;
+	float ___m_spacing;
+	TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2* ___m_TextStyleStacks;
+	int32_t ___m_TextStyleStackDepth;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___m_ItalicAngleStack;
+	int32_t ___m_ItalicAngle;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___m_actionStack;
+	float ___m_padding;
+	float ___m_baselineOffset;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_baselineOffsetStack;
+	float ___m_xAdvance;
+	int32_t ___m_textElementType;
+	TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* ___m_cached_TextElement;
+	SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 ___m_Ellipsis;
+	SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 ___m_Underline;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_defaultSpriteAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_currentSpriteAsset;
+	int32_t ___m_spriteCount;
+	int32_t ___m_spriteIndex;
+	int32_t ___m_spriteAnimationID;
+	bool ___m_ignoreActiveState;
+	TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361 ___m_TextBackingArray;
+	DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615* ___k_Power;
+};
+struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957  : public TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9
+{
+	bool ___m_isRebuildingLayout;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___m_DelayedGraphicRebuild;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___m_DelayedMaterialRebuild;
+	bool ___m_ShouldUpdateCulling;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___m_ClipRect;
+	bool ___m_ValidRect;
+	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* ___OnPreRenderText;
+	bool ___m_hasFontAssetChanged;
+	TMP_SubMeshUIU5BU5D_tC77B263183A59A75345C26152457207EAC3BBF29* ___m_subTextObjects;
+	float ___m_previousLossyScaleY;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_RectTransformCorners;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_canvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_canvas;
+	float ___m_CanvasScaleFactor;
+	bool ___m_isFirstAllocation;
+	int32_t ___m_max_characters;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_baseMaterial;
+	bool ___m_isScrollRegionSet;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_maskOffset;
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___m_EnvMapMatrix;
+	bool ___m_isRegisteredForEvents;
+	Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180* ___materialIndexPairs;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D370_t2E1FB44952FA2582214F7104C09A0C49A589A994 ___708B68E59BB72C32DC23A85F9BEE0A124A5E652642356DCF26DA12B7CD54D5BD;
+	__StaticArrayInitTypeSizeU3D835_t7E93CBB82A104A0452286118615CF62437A0EF60 ___7802D5DD0401ECD54DC7371D2F6AC74549D0537C14ADFD8D5A968D146F8122EE;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
+{
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_StaticFields
+{
+	PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* ___U3CInstanceU3Ek__BackingField;
+};
+struct XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4_StaticFields
+{
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_ProcessInteractionStrengthMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_ProcessInteractionStrengthEventMarker;
+};
+struct XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B_StaticFields
+{
+	LinkedPool_1_t6A6017AF114EF397084F1333559D0DB9CCE28598* ___s_DropEventArgs;
+	LinkedPool_1_t903D30868AECB20DD006FC2E04DDC68D822C3450* ___s_DynamicAttachTransformPool;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_ProcessGrabTransformersMarker;
+};
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields
+{
+	MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* ___m_materialReferences;
+	Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180* ___m_materialReferenceIndexLookup;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___m_materialReferenceStack;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___s_colorWhite;
+	Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C* ___OnFontAssetRequest;
+	Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5* ___OnSpriteAssetRequest;
+	MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6* ___OnMissingCharacter;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___m_htmlTag;
+	RichTextTagAttributeU5BU5D_t5816316EFD8F59DBC30B9F88E15828C564E47B6D* ___m_xmlAttribute;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___m_attributeParameterValues;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedWordWrapState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedLineState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedEllipsisState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedLastValidState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedSoftLineBreakState;
+	TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F ___m_EllipsisInsertionCandidateStack;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ParseTextMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_InsertNewLineMarker;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___k_LargePositiveVector2;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___k_LargeNegativeVector2;
+	float ___k_LargePositiveFloat;
+	float ___k_LargeNegativeFloat;
+	int32_t ___k_LargePositiveInt;
+	int32_t ___k_LargeNegativeInt;
+};
+struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_StaticFields
+{
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SetArraySizesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextPhaseIMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ParseMarkupTextMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_CharacterLookupMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleGPOSFeaturesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_CalculateVerticesPositionMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ComputeTextMetricsMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleVisibleCharacterMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleWhiteSpacesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleHorizontalLineBreakingMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleVerticalLineBreakingMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SaveGlyphVertexDataMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ComputeCharacterAdvanceMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleCarriageReturnMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleLineTerminationMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SavePageInfoMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SaveTextExtentMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SaveProcessingStatesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextPhaseIIMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextPhaseIIIMarker;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct PlanetViewU5BU5D_tE9962DCDF581BEFB6A9B8CD706D54C687D5B21A5  : public RuntimeArray
+{
+	ALIGN_FIELD (8) PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* m_Items[1];
+
+	inline PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct OrbitRendererU5BU5D_t3871DE0D0A883E776AEB43A13B496A6AD7BD589A  : public RuntimeArray
+{
+	ALIGN_FIELD (8) OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6* m_Items[1];
+
+	inline OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float m_Items[1];
+
+	inline float GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 m_Items[1];
+
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mD7756DCD2F07CD6207A72D5669CDBD9A967E1659_gshared (Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_m8180866D0B72B5B8758B3138DE9404CB754B9779_gshared_inline (Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeModel__ctor_mF88124F338842BFEDA37F1E0530EFA931DCA9534 (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetEphemerisService__ctor_m94515B99553FCD39C385508FDDC8595A156F5787 (PlanetEphemerisService_t7443928C4AE29216ABAB23BA9C3D7F73E57782BB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSystemController__ctor_m084A0B36D89C3FDA7907AECE69AFAA91C21FDB54 (PlanetSystemController_tDF347284C8248A5FC2B77F950CD7B6E95AE073E0* __this, TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* ___0_timeModel, RuntimeObject* ___1_ephemeris, PlanetViewU5BU5D_tE9962DCDF581BEFB6A9B8CD706D54C687D5B21A5* ___2_planets, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeController_Init_m5963631F4A2D75BFB3199CF2E74C43E9F97A137F (TimeController_t88BC4B61475E406AB50F5164D3BE736032BDB92B* __this, TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* ___0_m, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppBootstrapper_DrawAllOrbits_mB6C0FE077B888DE26F392268922735C6ED53B7D9 (AppBootstrapper_tBA0BA4AFDB0CC47F21EE529084266ABEE976EA58* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbitRenderer_DrawOrbit_mB83BDA033EE37AE86BD45CEBF6D9C9956B91E2F6 (OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6* __this, RuntimeObject* ___0_ephemeris, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___1_start, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* PlanetSelectionSystem_get_Instance_m3076E0BB0559AF84BAC77DD6E674E097623D6B11_inline (const RuntimeMethod* method) ;
+inline void Action_1__ctor_m027028B1AF06B62907F3CBE8F9CECA733E8DF2A9 (Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSelectionSystem_add_OnPlanetSelected_mC4B1B1B38815342290539A930CCD932E92F9A7EA (PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* __this, Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusController_UpdateUI_m4A03F880E5973F470D29EBEF04145D95AE2E8988 (FocusController_t69DF474A9FDBB271168B5678FE5FA40C7D997D0B* __this, PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* ___0_planet, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FocusController_GetDistance_m379C83B7408C2FC3AF45789D1676801585C607DC (FocusController_t69DF474A9FDBB271168B5678FE5FA40C7D997D0B* __this, int32_t ___0_p, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972 (float* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FocusController_GetPeriod_mC97E9ACF143C376CAD7C1AA1EBBC857A27B6F7EC (FocusController_t69DF474A9FDBB271168B5678FE5FA40C7D997D0B* __this, int32_t ___0_p, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D TimeModel_get_CurrentTime_m07C8E81C1FC0B3B52F4F9E26693735B2C9BE18EB_inline (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTime_ToString_m6963A84785C320DA776C9FCFFEDAF26C8F1A8D78 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, String_t* ___0_format, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSelectionSystem_remove_OnPlanetSelected_m75012C3D33352F487355605314E80DD3B4DCC5F5 (PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* __this, Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+inline void Action_1__ctor_mD7756DCD2F07CD6207A72D5669CDBD9A967E1659 (Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_mD7756DCD2F07CD6207A72D5669CDBD9A967E1659_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeModel_add_OnTimeChanged_m08D20382DA01839697DCEEB9049253E4AA7EE36B (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTime_ToString_m447C83E1F8FFFFF4D20C0F7D5C18DEB160F9833A (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetView_SetPosition_m7111B3E7814EC1C90865817F43A4AB97CEF5323A (PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SolarScaleController_ApplyScale_mFF7C4727740D03A88E3152986558A00F594D133E (SolarScaleController_tDEC02806152196DD5806061F2ED463CEBC108A4A* __this, float ___0_scale, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, String_t* ___3_str3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SolarScaleController_SetScale_mFDA90DCE823B0CDC37D7D146DF8F9973C8DF198E (SolarScaleController_tDEC02806152196DD5806061F2ED463CEBC108A4A* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeModel_SetTime_mD352602897B5A617FEA7F0CD583204C0A5D886D0 (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TimeModel_get_IsPlaying_m9B481B130E5D51B56BEB2D1ED9A7F84399F09717_inline (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D DateTime_AddDays_m9DC06105845A82FEAF697D5E30308ABD49E5721B (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, double ___0_value, const RuntimeMethod* method) ;
+inline XRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2* Component_GetComponent_TisXRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2_mCD65FB49B5B2DEBC4220E932DE850CEE5CADA8F2 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  XRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+inline XRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2* GameObject_AddComponent_TisXRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2_mC032C1A1B4A90613D1FBF9CFEF7ED35707AAA0CD (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  XRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) ;
+inline void UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24 (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2 (UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8* __this, UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8*, UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSelectionSystem_SelectPlanet_m69307A1AA219D912A54A67D715E64CCC56DA07E6 (PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* __this, PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* ___0_planet, const RuntimeMethod* method) ;
+inline void UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB (UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8* __this, UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8*, UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
+}
+inline XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* Component_GetComponent_TisXRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B_m49377F1D0DBAB9BDC59DFC6851E9A5D687717C14 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) ;
+inline void UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40 (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602 (UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B* __this, UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B*, UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
+}
+inline void UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B (UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B* __this, UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B*, UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TimeModel_set_CurrentTime_m36E3B9FE7E695168CA0ADBCC5A36338F759685FF_inline (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_value, const RuntimeMethod* method) ;
+inline void Action_1_Invoke_m8180866D0B72B5B8758B3138DE9404CB754B9779_inline (Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_obj, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B*, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D, const RuntimeMethod*))Action_1_Invoke_m8180866D0B72B5B8758B3138DE9404CB754B9779_gshared_inline)(__this, ___0_obj, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TimeModel_set_TimeScale_m6F7D6E37ACA1B66DAE428B6DEFC40E941451CA08_inline (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TimeModel_set_IsPlaying_m724051B020B45FE504A3B386BE0207E0D76C1981_inline (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, int32_t ___0_year, int32_t ___1_month, int32_t ___2_day, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A DateTime_op_Subtraction_m64D26F5ABFAE6E166A7E567093D025F6C69F0123 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_d1, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___1_d2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double TimeSpan_get_TotalDays_m7B3557D0DD79E39DFC6C08BAC756B1B5DE2D4108 (TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE (int32_t ___0_planet, int32_t ___1_param, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PlanetData_GetPlanetPosition_m7B39B09FC8BBDE24E778C38C1EE51FBE8F965D08 (int32_t ___0_p, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___1_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlanetSelectionSystem_set_Instance_mD187491952B8071496BCA49E6381CB3A2BFA3C42_inline (PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* ___0_value, const RuntimeMethod* method) ;
+inline void Action_1_Invoke_m4C4BC7F05AD378F55D5044733BB3898468ECD8F9_inline (Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* __this, PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* ___0_obj, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97*, PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___0_obj, method);
+}
+inline LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* Component_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m4F17B3CA1E7FFB03C7682312A59B9185E0F67C49 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_set_loop_mC7FBA197A227B62F11DE01264C68357FBA475058 (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_set_startWidth_m3899722E198D636DB216CB61C980214707069F4A (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_set_endWidth_mC7260401655C8BE1CBDFB832009295C89613F81D (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_set_positionCount_m2001FB4044053895ECBE897AB833284F3300B205 (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_SetPositions_m7F7B7B54428437D0BF5256D4C82F92180B577B02 (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_positions, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 79988
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppBootstrapper_Start_mD90B984181867A1C4CA907550F3D4EDA7A110C0B (AppBootstrapper_tBA0BA4AFDB0CC47F21EE529084266ABEE976EA58* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppBootstrapper_Start_mD90B984181867A1C4CA907550F3D4EDA7A110C0B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetEphemerisService_t7443928C4AE29216ABAB23BA9C3D7F73E57782BB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSystemController_tDF347284C8248A5FC2B77F950CD7B6E95AE073E0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5841E3ABF1BBB05DBEC4EAE8DE114E6DFD1C4319);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6D093746C2695647AAB0E694B1462C1BC3DA1D6D);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(AppBootstrapper_Start_mD90B984181867A1C4CA907550F3D4EDA7A110C0B_RuntimeMethod_var);
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:18>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral5841E3ABF1BBB05DBEC4EAE8DE114E6DFD1C4319, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:21>
+		TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* L_0 = (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC*)il2cpp_codegen_object_new(TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC_il2cpp_TypeInfo_var);
+		TimeModel__ctor_mF88124F338842BFEDA37F1E0530EFA931DCA9534(L_0, NULL);
+		__this->___timeModel = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___timeModel), (void*)L_0);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:24>
+		PlanetEphemerisService_t7443928C4AE29216ABAB23BA9C3D7F73E57782BB* L_1 = (PlanetEphemerisService_t7443928C4AE29216ABAB23BA9C3D7F73E57782BB*)il2cpp_codegen_object_new(PlanetEphemerisService_t7443928C4AE29216ABAB23BA9C3D7F73E57782BB_il2cpp_TypeInfo_var);
+		PlanetEphemerisService__ctor_m94515B99553FCD39C385508FDDC8595A156F5787(L_1, NULL);
+		__this->___ephemeris = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ephemeris), (void*)L_1);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:27>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:28>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:29>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:30>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:31>
+		TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* L_2 = __this->___timeModel;
+		RuntimeObject* L_3 = __this->___ephemeris;
+		PlanetViewU5BU5D_tE9962DCDF581BEFB6A9B8CD706D54C687D5B21A5* L_4 = __this->___planets;
+		PlanetSystemController_tDF347284C8248A5FC2B77F950CD7B6E95AE073E0* L_5 = (PlanetSystemController_tDF347284C8248A5FC2B77F950CD7B6E95AE073E0*)il2cpp_codegen_object_new(PlanetSystemController_tDF347284C8248A5FC2B77F950CD7B6E95AE073E0_il2cpp_TypeInfo_var);
+		PlanetSystemController__ctor_m084A0B36D89C3FDA7907AECE69AFAA91C21FDB54(L_5, L_2, L_3, L_4, NULL);
+		__this->___controller = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___controller), (void*)L_5);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:34>
+		TimeController_t88BC4B61475E406AB50F5164D3BE736032BDB92B* L_6 = __this->___timeController;
+		TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* L_7 = __this->___timeModel;
+		NullCheck(L_6);
+		TimeController_Init_m5963631F4A2D75BFB3199CF2E74C43E9F97A137F(L_6, L_7, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:37>
+		AppBootstrapper_DrawAllOrbits_mB6C0FE077B888DE26F392268922735C6ED53B7D9(__this, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:43>
+		FocusController_t69DF474A9FDBB271168B5678FE5FA40C7D997D0B* L_8 = __this->___focusController;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_0 = L_9;
+		bool L_10 = V_0;
+		if (!L_10)
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:44>
+		FocusController_t69DF474A9FDBB271168B5678FE5FA40C7D997D0B* L_11 = __this->___focusController;
+		TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* L_12 = __this->___timeModel;
+		NullCheck(L_11);
+		L_11->___timeModel = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&L_11->___timeModel), (void*)L_12);
+	}
+
+IL_0079:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:46>
+		PlanetViewU5BU5D_tE9962DCDF581BEFB6A9B8CD706D54C687D5B21A5* L_13 = __this->___planets;
+		NullCheck(L_13);
+		V_1 = ((int32_t)(((RuntimeArray*)L_13)->max_length));
+		String_t* L_14;
+		L_14 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		String_t* L_15;
+		L_15 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral6D093746C2695647AAB0E694B1462C1BC3DA1D6D, L_14, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_15, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:47>
+		return;
+	}
+}
+// Method Definition Index: 79989
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppBootstrapper_DrawAllOrbits_mB6C0FE077B888DE26F392268922735C6ED53B7D9 (AppBootstrapper_tBA0BA4AFDB0CC47F21EE529084266ABEE976EA58* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppBootstrapper_DrawAllOrbits_mB6C0FE077B888DE26F392268922735C6ED53B7D9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D30E33833978ED921AD64D69EC83D5BB8D1712D);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(AppBootstrapper_DrawAllOrbits_mB6C0FE077B888DE26F392268922735C6ED53B7D9_RuntimeMethod_var);
+	bool V_0 = false;
+	OrbitRendererU5BU5D_t3871DE0D0A883E776AEB43A13B496A6AD7BD589A* V_1 = NULL;
+	int32_t V_2 = 0;
+	OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6* V_3 = NULL;
+	int32_t V_4 = 0;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:51>
+		OrbitRendererU5BU5D_t3871DE0D0A883E776AEB43A13B496A6AD7BD589A* L_0 = __this->___orbits;
+		V_0 = (bool)((((RuntimeObject*)(OrbitRendererU5BU5D_t3871DE0D0A883E776AEB43A13B496A6AD7BD589A*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:51>
+		goto IL_005f;
+	}
+
+IL_0010:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:53>
+		OrbitRendererU5BU5D_t3871DE0D0A883E776AEB43A13B496A6AD7BD589A* L_2 = __this->___orbits;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_0038;
+	}
+
+IL_001c:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:53>
+		OrbitRendererU5BU5D_t3871DE0D0A883E776AEB43A13B496A6AD7BD589A* L_3 = V_1;
+		int32_t L_4 = V_2;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_3 = L_6;
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:55>
+		OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6* L_7 = V_3;
+		RuntimeObject* L_8 = __this->___ephemeris;
+		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_9;
+		L_9 = DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C(NULL);
+		NullCheck(L_7);
+		OrbitRenderer_DrawOrbit_mB83BDA033EE37AE86BD45CEBF6D9C9956B91E2F6(L_7, L_8, L_9, NULL);
+		int32_t L_10 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_10, 1));
+	}
+
+IL_0038:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:53>
+		int32_t L_11 = V_2;
+		OrbitRendererU5BU5D_t3871DE0D0A883E776AEB43A13B496A6AD7BD589A* L_12 = V_1;
+		NullCheck(L_12);
+		if ((((int32_t)L_11) < ((int32_t)((int32_t)(((RuntimeArray*)L_12)->max_length)))))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:58>
+		OrbitRendererU5BU5D_t3871DE0D0A883E776AEB43A13B496A6AD7BD589A* L_13 = __this->___orbits;
+		NullCheck(L_13);
+		V_4 = ((int32_t)(((RuntimeArray*)L_13)->max_length));
+		String_t* L_14;
+		L_14 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_4), NULL);
+		String_t* L_15;
+		L_15 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral4D30E33833978ED921AD64D69EC83D5BB8D1712D, L_14, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_15, NULL);
+	}
+
+IL_005f:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Bootstrap/AppBootstrapper.cs:59>
+		return;
+	}
+}
+// Method Definition Index: 79990
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppBootstrapper__ctor_m7AE3C523685AF7846DD54E4E168CFAAD294D08C6 (AppBootstrapper_tBA0BA4AFDB0CC47F21EE529084266ABEE976EA58* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppBootstrapper__ctor_m7AE3C523685AF7846DD54E4E168CFAAD294D08C6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(AppBootstrapper__ctor_m7AE3C523685AF7846DD54E4E168CFAAD294D08C6_RuntimeMethod_var);
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 79991
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SolarSystemConfig__ctor_m91D549590447C68D45DC592D0430F32465525D43 (SolarSystemConfig_tE69174DA3F19231A84DF400DC89DAEF9BEC67679* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarSystemConfig__ctor_m91D549590447C68D45DC592D0430F32465525D43_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SolarSystemConfig__ctor_m91D549590447C68D45DC592D0430F32465525D43_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Confg/SolarSystemConfig.cs:6>
+		__this->___distanceScale = (9.99999997E-07f);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Confg/SolarSystemConfig.cs:7>
+		__this->___planetSizeScale = (0.00999999978f);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Confg/SolarSystemConfig.cs:8>
+		__this->___showOrbits = (bool)1;
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 79992
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusController_Start_mDD09402A21D9A1DA6A4B007219F9065247E50079 (FocusController_t69DF474A9FDBB271168B5678FE5FA40C7D997D0B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FocusController_FocusOn_mF4A6A8E4FBD9CAD7DE5E0230D72CE38455C904DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FocusController_Start_mDD09402A21D9A1DA6A4B007219F9065247E50079_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(FocusController_Start_mDD09402A21D9A1DA6A4B007219F9065247E50079_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:20>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___infoPanel;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:21>
+		PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* L_1;
+		L_1 = PlanetSelectionSystem_get_Instance_m3076E0BB0559AF84BAC77DD6E674E097623D6B11_inline(NULL);
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_2 = (Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97*)il2cpp_codegen_object_new(Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97_il2cpp_TypeInfo_var);
+		Action_1__ctor_m027028B1AF06B62907F3CBE8F9CECA733E8DF2A9(L_2, __this, (intptr_t)((void*)FocusController_FocusOn_mF4A6A8E4FBD9CAD7DE5E0230D72CE38455C904DE_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		PlanetSelectionSystem_add_OnPlanetSelected_mC4B1B1B38815342290539A930CCD932E92F9A7EA(L_1, L_2, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:22>
+		return;
+	}
+}
+// Method Definition Index: 79993
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusController_FocusOn_mF4A6A8E4FBD9CAD7DE5E0230D72CE38455C904DE (FocusController_t69DF474A9FDBB271168B5678FE5FA40C7D997D0B* __this, PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* ___0_planet, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FocusController_FocusOn_mF4A6A8E4FBD9CAD7DE5E0230D72CE38455C904DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Planet_t2E7D91CC5C418DA36A4A9D5904C017B41636E873_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFB30FA41E7EA3D5149BBDBE13C06527349DBC843);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(FocusController_FocusOn_mF4A6A8E4FBD9CAD7DE5E0230D72CE38455C904DE_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:26>
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_0 = ___0_planet;
+		__this->___focusedPlanet = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___focusedPlanet), (void*)L_0);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:27>
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_1 = ___0_planet;
+		NullCheck(L_1);
+		int32_t* L_2 = (int32_t*)(&L_1->___planet);
+		Il2CppFakeBox<int32_t> L_3(Planet_t2E7D91CC5C418DA36A4A9D5904C017B41636E873_il2cpp_TypeInfo_var, L_2);
+		String_t* L_4;
+		L_4 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_3), NULL);
+		String_t* L_5;
+		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFB30FA41E7EA3D5149BBDBE13C06527349DBC843, L_4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_5, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:28>
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_6 = ___0_planet;
+		NullCheck(L_6);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
+		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_6, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_9 = ___0_planet;
+		NullCheck(L_9);
+		float L_10 = L_9->___displaySize;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_8, L_10, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_11, (2.0f), NULL);
+		NullCheck(L_7);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_7, L_12, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:29>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___infoPanel;
+		NullCheck(L_13);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)1, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:30>
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_14 = ___0_planet;
+		FocusController_UpdateUI_m4A03F880E5973F470D29EBEF04145D95AE2E8988(__this, L_14, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:31>
+		return;
+	}
+}
+// Method Definition Index: 79994
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusController_UpdateUI_m4A03F880E5973F470D29EBEF04145D95AE2E8988 (FocusController_t69DF474A9FDBB271168B5678FE5FA40C7D997D0B* __this, PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* ___0_planet, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FocusController_UpdateUI_m4A03F880E5973F470D29EBEF04145D95AE2E8988_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Planet_t2E7D91CC5C418DA36A4A9D5904C017B41636E873_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral109265A5F34EF56AEDEC3D511758F74484C5FE18);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1AB3394C1297FB60109AB89AF4030AA45726658A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral664289565F4643C0B88B589E150210CCF50F9337);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBCF0ED813C341816D730826DA5E6B02C30A25F7C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD68B342FC478E02B02A83610669ACA863FF4BD6A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEBC8FD0525340E70396C5D80C493F537AC3F2640);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(FocusController_UpdateUI_m4A03F880E5973F470D29EBEF04145D95AE2E8988_RuntimeMethod_var);
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* G_B2_0 = NULL;
+	String_t* G_B2_1 = NULL;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* G_B2_2 = NULL;
+	TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* G_B1_0 = NULL;
+	String_t* G_B1_1 = NULL;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* G_B1_2 = NULL;
+	String_t* G_B3_0 = NULL;
+	String_t* G_B3_1 = NULL;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* G_B3_2 = NULL;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:35>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___planetNameText;
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_1 = ___0_planet;
+		NullCheck(L_1);
+		int32_t* L_2 = (int32_t*)(&L_1->___planet);
+		Il2CppFakeBox<int32_t> L_3(Planet_t2E7D91CC5C418DA36A4A9D5904C017B41636E873_il2cpp_TypeInfo_var, L_2);
+		String_t* L_4;
+		L_4 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_3), NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_4);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:36>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_5 = __this->___distanceText;
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_6 = ___0_planet;
+		NullCheck(L_6);
+		int32_t L_7 = L_6->___planet;
+		float L_8;
+		L_8 = FocusController_GetDistance_m379C83B7408C2FC3AF45789D1676801585C607DC(__this, L_7, NULL);
+		V_0 = L_8;
+		String_t* L_9;
+		L_9 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_0), NULL);
+		String_t* L_10;
+		L_10 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralBCF0ED813C341816D730826DA5E6B02C30A25F7C, L_9, _stringLiteral1AB3394C1297FB60109AB89AF4030AA45726658A, NULL);
+		NullCheck(L_5);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, L_10);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:37>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_11 = __this->___periodText;
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_12 = ___0_planet;
+		NullCheck(L_12);
+		int32_t L_13 = L_12->___planet;
+		int32_t L_14;
+		L_14 = FocusController_GetPeriod_mC97E9ACF143C376CAD7C1AA1EBBC857A27B6F7EC(__this, L_13, NULL);
+		V_1 = L_14;
+		String_t* L_15;
+		L_15 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		String_t* L_16;
+		L_16 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralEBC8FD0525340E70396C5D80C493F537AC3F2640, L_15, _stringLiteral109265A5F34EF56AEDEC3D511758F74484C5FE18, NULL);
+		NullCheck(L_11);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_11, L_16);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:38>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_17 = __this->___dateText;
+		TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* L_18 = __this->___timeModel;
+		TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* L_19 = L_18;
+		if (L_19)
+		{
+			G_B2_0 = L_19;
+			G_B2_1 = _stringLiteral664289565F4643C0B88B589E150210CCF50F9337;
+			G_B2_2 = L_17;
+			goto IL_0094;
+		}
+		G_B1_0 = L_19;
+		G_B1_1 = _stringLiteral664289565F4643C0B88B589E150210CCF50F9337;
+		G_B1_2 = L_17;
+	}
+	{
+		G_B3_0 = ((String_t*)(NULL));
+		G_B3_1 = G_B1_1;
+		G_B3_2 = G_B1_2;
+		goto IL_00a6;
+	}
+
+IL_0094:
+	{
+		NullCheck(G_B2_0);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_20;
+		L_20 = TimeModel_get_CurrentTime_m07C8E81C1FC0B3B52F4F9E26693735B2C9BE18EB_inline(G_B2_0, NULL);
+		V_2 = L_20;
+		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		String_t* L_21;
+		L_21 = DateTime_ToString_m6963A84785C320DA776C9FCFFEDAF26C8F1A8D78((&V_2), _stringLiteralD68B342FC478E02B02A83610669ACA863FF4BD6A, NULL);
+		G_B3_0 = L_21;
+		G_B3_1 = G_B2_1;
+		G_B3_2 = G_B2_2;
+	}
+
+IL_00a6:
+	{
+		String_t* L_22;
+		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B3_1, G_B3_0, NULL);
+		NullCheck(G_B3_2);
+		VirtualActionInvoker1< String_t* >::Invoke(66, G_B3_2, L_22);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:39>
+		return;
+	}
+}
+// Method Definition Index: 79995
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FocusController_GetDistance_m379C83B7408C2FC3AF45789D1676801585C607DC (FocusController_t69DF474A9FDBB271168B5678FE5FA40C7D997D0B* __this, int32_t ___0_p, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FocusController_GetDistance_m379C83B7408C2FC3AF45789D1676801585C607DC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(FocusController_GetDistance_m379C83B7408C2FC3AF45789D1676801585C607DC_RuntimeMethod_var);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	float V_2 = 0.0f;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:43>
+		int32_t L_0 = ___0_p;
+		V_1 = L_0;
+		int32_t L_1 = V_1;
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_002d;
+			}
+			case 1:
+			{
+				goto IL_0035;
+			}
+			case 2:
+			{
+				goto IL_003d;
+			}
+			case 3:
+			{
+				goto IL_0045;
+			}
+			case 4:
+			{
+				goto IL_004d;
+			}
+			case 5:
+			{
+				goto IL_0055;
+			}
+			case 6:
+			{
+				goto IL_005d;
+			}
+			case 7:
+			{
+				goto IL_0065;
+			}
+		}
+	}
+	{
+		goto IL_006d;
+	}
+
+IL_002d:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:45>
+		V_2 = (0.389999986f);
+		goto IL_0075;
+	}
+
+IL_0035:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:46>
+		V_2 = (0.720000029f);
+		goto IL_0075;
+	}
+
+IL_003d:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:47>
+		V_2 = (1.0f);
+		goto IL_0075;
+	}
+
+IL_0045:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:48>
+		V_2 = (1.51999998f);
+		goto IL_0075;
+	}
+
+IL_004d:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:49>
+		V_2 = (5.19999981f);
+		goto IL_0075;
+	}
+
+IL_0055:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:50>
+		V_2 = (9.57999992f);
+		goto IL_0075;
+	}
+
+IL_005d:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:51>
+		V_2 = (19.2000008f);
+		goto IL_0075;
+	}
+
+IL_0065:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:52>
+		V_2 = (30.1000004f);
+		goto IL_0075;
+	}
+
+IL_006d:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:53>
+		V_2 = (0.0f);
+		goto IL_0075;
+	}
+
+IL_0075:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:55>
+		float L_3 = V_2;
+		return L_3;
+	}
+}
+// Method Definition Index: 79996
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FocusController_GetPeriod_mC97E9ACF143C376CAD7C1AA1EBBC857A27B6F7EC (FocusController_t69DF474A9FDBB271168B5678FE5FA40C7D997D0B* __this, int32_t ___0_p, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FocusController_GetPeriod_mC97E9ACF143C376CAD7C1AA1EBBC857A27B6F7EC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(FocusController_GetPeriod_mC97E9ACF143C376CAD7C1AA1EBBC857A27B6F7EC_RuntimeMethod_var);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:59>
+		int32_t L_0 = ___0_p;
+		V_1 = L_0;
+		int32_t L_1 = V_1;
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_002d;
+			}
+			case 1:
+			{
+				goto IL_0032;
+			}
+			case 2:
+			{
+				goto IL_003a;
+			}
+			case 3:
+			{
+				goto IL_0042;
+			}
+			case 4:
+			{
+				goto IL_004a;
+			}
+			case 5:
+			{
+				goto IL_0052;
+			}
+			case 6:
+			{
+				goto IL_005a;
+			}
+			case 7:
+			{
+				goto IL_0062;
+			}
+		}
+	}
+	{
+		goto IL_006a;
+	}
+
+IL_002d:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:61>
+		V_2 = ((int32_t)88);
+		goto IL_006e;
+	}
+
+IL_0032:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:62>
+		V_2 = ((int32_t)225);
+		goto IL_006e;
+	}
+
+IL_003a:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:63>
+		V_2 = ((int32_t)365);
+		goto IL_006e;
+	}
+
+IL_0042:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:64>
+		V_2 = ((int32_t)687);
+		goto IL_006e;
+	}
+
+IL_004a:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:65>
+		V_2 = ((int32_t)4333);
+		goto IL_006e;
+	}
+
+IL_0052:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:66>
+		V_2 = ((int32_t)10759);
+		goto IL_006e;
+	}
+
+IL_005a:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:67>
+		V_2 = ((int32_t)30687);
+		goto IL_006e;
+	}
+
+IL_0062:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:68>
+		V_2 = ((int32_t)60190);
+		goto IL_006e;
+	}
+
+IL_006a:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:69>
+		V_2 = 0;
+		goto IL_006e;
+	}
+
+IL_006e:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:71>
+		int32_t L_3 = V_2;
+		return L_3;
+	}
+}
+// Method Definition Index: 79997
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusController_OnDestroy_mCB8AA76F61DABE96448C8BA8CEA3F85A512AC47A (FocusController_t69DF474A9FDBB271168B5678FE5FA40C7D997D0B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FocusController_FocusOn_mF4A6A8E4FBD9CAD7DE5E0230D72CE38455C904DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FocusController_OnDestroy_mCB8AA76F61DABE96448C8BA8CEA3F85A512AC47A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(FocusController_OnDestroy_mCB8AA76F61DABE96448C8BA8CEA3F85A512AC47A_RuntimeMethod_var);
+	bool V_0 = false;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:75>
+		PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* L_0;
+		L_0 = PlanetSelectionSystem_get_Instance_m3076E0BB0559AF84BAC77DD6E674E097623D6B11_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:76>
+		PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* L_3;
+		L_3 = PlanetSelectionSystem_get_Instance_m3076E0BB0559AF84BAC77DD6E674E097623D6B11_inline(NULL);
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_4 = (Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97*)il2cpp_codegen_object_new(Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97_il2cpp_TypeInfo_var);
+		Action_1__ctor_m027028B1AF06B62907F3CBE8F9CECA733E8DF2A9(L_4, __this, (intptr_t)((void*)FocusController_FocusOn_mF4A6A8E4FBD9CAD7DE5E0230D72CE38455C904DE_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
+		PlanetSelectionSystem_remove_OnPlanetSelected_m75012C3D33352F487355605314E80DD3B4DCC5F5(L_3, L_4, NULL);
+	}
+
+IL_0027:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/FocusController.cs:77>
+		return;
+	}
+}
+// Method Definition Index: 79998
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusController__ctor_mE8D19EAFB6636362DA4821D94E8D16A5E4A039E4 (FocusController_t69DF474A9FDBB271168B5678FE5FA40C7D997D0B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FocusController__ctor_mE8D19EAFB6636362DA4821D94E8D16A5E4A039E4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(FocusController__ctor_mE8D19EAFB6636362DA4821D94E8D16A5E4A039E4_RuntimeMethod_var);
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 79999
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSystemController__ctor_m084A0B36D89C3FDA7907AECE69AFAA91C21FDB54 (PlanetSystemController_tDF347284C8248A5FC2B77F950CD7B6E95AE073E0* __this, TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* ___0_timeModel, RuntimeObject* ___1_ephemeris, PlanetViewU5BU5D_tE9962DCDF581BEFB6A9B8CD706D54C687D5B21A5* ___2_planets, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSystemController_UpdatePlanets_mC40EB07A751A1EC6B4E8F4D6DE462D2DD7E7615A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSystemController__ctor_m084A0B36D89C3FDA7907AECE69AFAA91C21FDB54_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetSystemController__ctor_m084A0B36D89C3FDA7907AECE69AFAA91C21FDB54_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:11>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:12>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:13>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:14>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:16>
+		TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* L_0 = ___0_timeModel;
+		__this->___timeModel = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___timeModel), (void*)L_0);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:17>
+		RuntimeObject* L_1 = ___1_ephemeris;
+		__this->___ephemeris = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ephemeris), (void*)L_1);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:18>
+		PlanetViewU5BU5D_tE9962DCDF581BEFB6A9B8CD706D54C687D5B21A5* L_2 = ___2_planets;
+		__this->___planets = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___planets), (void*)L_2);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:20>
+		TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* L_3 = ___0_timeModel;
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_4 = (Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B*)il2cpp_codegen_object_new(Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B_il2cpp_TypeInfo_var);
+		Action_1__ctor_mD7756DCD2F07CD6207A72D5669CDBD9A967E1659(L_4, __this, (intptr_t)((void*)PlanetSystemController_UpdatePlanets_mC40EB07A751A1EC6B4E8F4D6DE462D2DD7E7615A_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
+		TimeModel_add_OnTimeChanged_m08D20382DA01839697DCEEB9049253E4AA7EE36B(L_3, L_4, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:21>
+		return;
+	}
+}
+// Method Definition Index: 80000
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSystemController_UpdatePlanets_mC40EB07A751A1EC6B4E8F4D6DE462D2DD7E7615A (PlanetSystemController_tDF347284C8248A5FC2B77F950CD7B6E95AE073E0* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_time, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlanetEphemerisService_tBE8082A231527B804C437A797C7F14AFADE4F95F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSystemController_UpdatePlanets_mC40EB07A751A1EC6B4E8F4D6DE462D2DD7E7615A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA31F6D946A06019C5E95C01027D06B0DB44F65E8);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetSystemController_UpdatePlanets_mC40EB07A751A1EC6B4E8F4D6DE462D2DD7E7615A_RuntimeMethod_var);
+	PlanetViewU5BU5D_tE9962DCDF581BEFB6A9B8CD706D54C687D5B21A5* V_0 = NULL;
+	int32_t V_1 = 0;
+	PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* V_2 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:25>
+		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		String_t* L_0;
+		L_0 = DateTime_ToString_m447C83E1F8FFFFF4D20C0F7D5C18DEB160F9833A((&___0_time), NULL);
+		String_t* L_1;
+		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA31F6D946A06019C5E95C01027D06B0DB44F65E8, L_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:27>
+		PlanetViewU5BU5D_tE9962DCDF581BEFB6A9B8CD706D54C687D5B21A5* L_2 = __this->___planets;
+		V_0 = L_2;
+		V_1 = 0;
+		goto IL_0049;
+	}
+
+IL_0024:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:27>
+		PlanetViewU5BU5D_tE9962DCDF581BEFB6A9B8CD706D54C687D5B21A5* L_3 = V_0;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_2 = L_6;
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:29>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:30>
+		RuntimeObject* L_7 = __this->___ephemeris;
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_8 = V_2;
+		NullCheck(L_8);
+		int32_t L_9 = L_8->___planet;
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_10 = ___0_time;
+		NullCheck(L_7);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = InterfaceFuncInvoker2< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D >::Invoke(0, IPlanetEphemerisService_tBE8082A231527B804C437A797C7F14AFADE4F95F_il2cpp_TypeInfo_var, L_7, L_9, L_10);
+		V_3 = L_11;
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:32>
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_12 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_3;
+		NullCheck(L_12);
+		PlanetView_SetPosition_m7111B3E7814EC1C90865817F43A4AB97CEF5323A(L_12, L_13, NULL);
+		int32_t L_14 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+	}
+
+IL_0049:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:27>
+		int32_t L_15 = V_1;
+		PlanetViewU5BU5D_tE9962DCDF581BEFB6A9B8CD706D54C687D5B21A5* L_16 = V_0;
+		NullCheck(L_16);
+		if ((((int32_t)L_15) < ((int32_t)((int32_t)(((RuntimeArray*)L_16)->max_length)))))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/PlanetSystemController.cs:34>
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 80001
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SolarScaleController_Start_m302B6068E84C67EE3C34E02D72AA42C2E9C0B04E (SolarScaleController_tDEC02806152196DD5806061F2ED463CEBC108A4A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarScaleController_Start_m302B6068E84C67EE3C34E02D72AA42C2E9C0B04E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SolarScaleController_Start_m302B6068E84C67EE3C34E02D72AA42C2E9C0B04E_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:17>
+		float L_0 = __this->___currentScale;
+		SolarScaleController_ApplyScale_mFF7C4727740D03A88E3152986558A00F594D133E(__this, L_0, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 80002
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SolarScaleController_SetScale_mFDA90DCE823B0CDC37D7D146DF8F9973C8DF198E (SolarScaleController_tDEC02806152196DD5806061F2ED463CEBC108A4A* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarScaleController_SetScale_mFDA90DCE823B0CDC37D7D146DF8F9973C8DF198E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00108E2D1F1D2422A25217F90F06036258144B68);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0ACC300B9CB0C395D9A6CED9D0335366D382F0DA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral721FFD93E5E87A62AA029D1733853D1D95472561);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral73D9C88DD061503C8E495188F237E1901308C684);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SolarScaleController_SetScale_mFDA90DCE823B0CDC37D7D146DF8F9973C8DF198E_RuntimeMethod_var);
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:22>
+		String_t* L_0;
+		L_0 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&___0_value), NULL);
+		String_t* L_1;
+		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral721FFD93E5E87A62AA029D1733853D1D95472561, L_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:24>
+		float L_2 = ___0_value;
+		float L_3 = __this->___minScale;
+		float L_4 = __this->___maxScale;
+		float L_5;
+		L_5 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_2, L_3, L_4, NULL);
+		V_0 = L_5;
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:26>
+		float L_6 = V_0;
+		float L_7 = ___0_value;
+		V_1 = (bool)((((int32_t)((((float)L_6) == ((float)L_7))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_8 = V_1;
+		if (!L_8)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:27>
+		String_t* L_9;
+		L_9 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&___0_value), NULL);
+		String_t* L_10;
+		L_10 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_0), NULL);
+		String_t* L_11;
+		L_11 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral00108E2D1F1D2422A25217F90F06036258144B68, L_9, _stringLiteral73D9C88DD061503C8E495188F237E1901308C684, L_10, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_11, NULL);
+	}
+
+IL_0059:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:29>
+		float L_12 = V_0;
+		__this->___currentScale = L_12;
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:30>
+		float L_13 = __this->___currentScale;
+		SolarScaleController_ApplyScale_mFF7C4727740D03A88E3152986558A00F594D133E(__this, L_13, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:32>
+		float* L_14 = (float*)(&__this->___currentScale);
+		String_t* L_15;
+		L_15 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_14, NULL);
+		String_t* L_16;
+		L_16 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral0ACC300B9CB0C395D9A6CED9D0335366D382F0DA, L_15, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_16, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:33>
+		return;
+	}
+}
+// Method Definition Index: 80003
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SolarScaleController_ScaleUp_m5BD9958D0F9F0AB43AB15838696ECF2A61A6E7B9 (SolarScaleController_tDEC02806152196DD5806061F2ED463CEBC108A4A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarScaleController_ScaleUp_m5BD9958D0F9F0AB43AB15838696ECF2A61A6E7B9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SolarScaleController_ScaleUp_m5BD9958D0F9F0AB43AB15838696ECF2A61A6E7B9_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:35>
+		float L_0 = __this->___currentScale;
+		SolarScaleController_SetScale_mFDA90DCE823B0CDC37D7D146DF8F9973C8DF198E(__this, ((float)il2cpp_codegen_add(L_0, (0.100000001f))), NULL);
+		return;
+	}
+}
+// Method Definition Index: 80004
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SolarScaleController_ScaleDown_mD22F3F027444F83E3D53296CC37411166FA9C0CD (SolarScaleController_tDEC02806152196DD5806061F2ED463CEBC108A4A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarScaleController_ScaleDown_mD22F3F027444F83E3D53296CC37411166FA9C0CD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SolarScaleController_ScaleDown_mD22F3F027444F83E3D53296CC37411166FA9C0CD_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:36>
+		float L_0 = __this->___currentScale;
+		SolarScaleController_SetScale_mFDA90DCE823B0CDC37D7D146DF8F9973C8DF198E(__this, ((float)il2cpp_codegen_subtract(L_0, (0.100000001f))), NULL);
+		return;
+	}
+}
+// Method Definition Index: 80005
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SolarScaleController_ApplyScale_mFF7C4727740D03A88E3152986558A00F594D133E (SolarScaleController_tDEC02806152196DD5806061F2ED463CEBC108A4A* __this, float ___0_scale, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarScaleController_ApplyScale_mFF7C4727740D03A88E3152986558A00F594D133E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SolarScaleController_ApplyScale_mFF7C4727740D03A88E3152986558A00F594D133E_RuntimeMethod_var);
+	bool V_0 = false;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:40>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___solarSystemRoot;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:41>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___solarSystemRoot;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		float L_5 = ___0_scale;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_4, L_5, NULL);
+		NullCheck(L_3);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_3, L_6, NULL);
+	}
+
+IL_0028:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:42>
+		return;
+	}
+}
+// Method Definition Index: 80006
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SolarScaleController__ctor_m12C14AE8D9BEC231163A9C20F26B7A4098707BC6 (SolarScaleController_tDEC02806152196DD5806061F2ED463CEBC108A4A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarScaleController__ctor_m12C14AE8D9BEC231163A9C20F26B7A4098707BC6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SolarScaleController__ctor_m12C14AE8D9BEC231163A9C20F26B7A4098707BC6_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:9>
+		__this->___minScale = (0.100000001f);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:10>
+		__this->___maxScale = (5.0f);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/SolarScaleController.cs:13>
+		__this->___currentScale = (1.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 80007
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeController_Init_m5963631F4A2D75BFB3199CF2E74C43E9F97A137F (TimeController_t88BC4B61475E406AB50F5164D3BE736032BDB92B* __this, TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* ___0_m, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeController_Init_m5963631F4A2D75BFB3199CF2E74C43E9F97A137F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeController_Init_m5963631F4A2D75BFB3199CF2E74C43E9F97A137F_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/TimeController.cs:13>
+		TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* L_0 = ___0_m;
+		__this->___model = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___model), (void*)L_0);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/TimeController.cs:14>
+		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_1;
+		L_1 = DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C(NULL);
+		__this->___current = L_1;
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/TimeController.cs:15>
+		TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* L_2 = __this->___model;
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_3 = __this->___current;
+		NullCheck(L_2);
+		TimeModel_SetTime_mD352602897B5A617FEA7F0CD583204C0A5D886D0(L_2, L_3, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/TimeController.cs:16>
+		return;
+	}
+}
+// Method Definition Index: 80008
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeController_Update_m57D293CB781C000471D6956718F27FBD706C0467 (TimeController_t88BC4B61475E406AB50F5164D3BE736032BDB92B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeController_Update_m57D293CB781C000471D6956718F27FBD706C0467_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeController_Update_m57D293CB781C000471D6956718F27FBD706C0467_RuntimeMethod_var);
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/TimeController.cs:20>
+		TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* L_0 = __this->___model;
+		V_0 = (bool)((((RuntimeObject*)(TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/TimeController.cs:20>
+		goto IL_0054;
+	}
+
+IL_0010:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/TimeController.cs:21>
+		TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* L_2 = __this->___model;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = TimeModel_get_IsPlaying_m9B481B130E5D51B56BEB2D1ED9A7F84399F09717_inline(L_2, NULL);
+		V_1 = (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/TimeController.cs:21>
+		goto IL_0054;
+	}
+
+IL_0024:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/TimeController.cs:23>
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* L_5 = (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)(&__this->___current);
+		float L_6;
+		L_6 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_7 = __this->___secondsPerDay;
+		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_8;
+		L_8 = DateTime_AddDays_m9DC06105845A82FEAF697D5E30308ABD49E5721B(L_5, ((double)((float)il2cpp_codegen_multiply(L_6, L_7))), NULL);
+		__this->___current = L_8;
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/TimeController.cs:24>
+		TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* L_9 = __this->___model;
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_10 = __this->___current;
+		NullCheck(L_9);
+		TimeModel_SetTime_mD352602897B5A617FEA7F0CD583204C0A5D886D0(L_9, L_10, NULL);
+	}
+
+IL_0054:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/TimeController.cs:25>
+		return;
+	}
+}
+// Method Definition Index: 80009
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeController__ctor_m41C4F7E9D264A74A7E5D8F0EA3929D27875446FF (TimeController_t88BC4B61475E406AB50F5164D3BE736032BDB92B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeController__ctor_m41C4F7E9D264A74A7E5D8F0EA3929D27875446FF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeController__ctor_m41C4F7E9D264A74A7E5D8F0EA3929D27875446FF_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Controllers/TimeController.cs:6>
+		__this->___secondsPerDay = (1.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 80010
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSelectable_Awake_m6F9EE508EA302A6E1599979E6608DCA8429E84A0 (PlanetSelectable_t954CD76C7D7BF93862A6B4DC851343B3CD88D819* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisXRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2_mCD65FB49B5B2DEBC4220E932DE850CEE5CADA8F2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisXRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2_mC032C1A1B4A90613D1FBF9CFEF7ED35707AAA0CD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectable_Awake_m6F9EE508EA302A6E1599979E6608DCA8429E84A0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectable_OnSelected_m8943D8F036AF93F9BD213A94F7ABFA901189AF52_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetSelectable_Awake_m6F9EE508EA302A6E1599979E6608DCA8429E84A0_RuntimeMethod_var);
+	bool V_0 = false;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/PlanetSelectable.cs:12>
+		XRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2* L_0;
+		L_0 = Component_GetComponent_TisXRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2_mCD65FB49B5B2DEBC4220E932DE850CEE5CADA8F2(__this, Component_GetComponent_TisXRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2_mCD65FB49B5B2DEBC4220E932DE850CEE5CADA8F2_RuntimeMethod_var);
+		__this->___interactable = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___interactable), (void*)L_0);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/PlanetSelectable.cs:13>
+		XRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2* L_1 = __this->___interactable;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_0 = L_2;
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/PlanetSelectable.cs:14>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_4);
+		XRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2* L_5;
+		L_5 = GameObject_AddComponent_TisXRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2_mC032C1A1B4A90613D1FBF9CFEF7ED35707AAA0CD(L_4, GameObject_AddComponent_TisXRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2_mC032C1A1B4A90613D1FBF9CFEF7ED35707AAA0CD_RuntimeMethod_var);
+		__this->___interactable = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___interactable), (void*)L_5);
+	}
+
+IL_002e:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/PlanetSelectable.cs:16>
+		XRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2* L_6 = __this->___interactable;
+		NullCheck(L_6);
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_7;
+		L_7 = XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline(L_6, NULL);
+		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_8 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_8, __this, (intptr_t)((void*)PlanetSelectable_OnSelected_m8943D8F036AF93F9BD213A94F7ABFA901189AF52_RuntimeMethod_var), NULL);
+		NullCheck(L_7);
+		UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2(L_7, L_8, UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/PlanetSelectable.cs:17>
+		return;
+	}
+}
+// Method Definition Index: 80011
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSelectable_OnSelected_m8943D8F036AF93F9BD213A94F7ABFA901189AF52 (PlanetSelectable_t954CD76C7D7BF93862A6B4DC851343B3CD88D819* __this, SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938* ___0_args, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectable_OnSelected_m8943D8F036AF93F9BD213A94F7ABFA901189AF52_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Planet_t2E7D91CC5C418DA36A4A9D5904C017B41636E873_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA855CD78B95A8C4D1BCDFD4F3198CC30773999F);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetSelectable_OnSelected_m8943D8F036AF93F9BD213A94F7ABFA901189AF52_RuntimeMethod_var);
+	PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* G_B2_0 = NULL;
+	PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* G_B1_0 = NULL;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/PlanetSelectable.cs:21>
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_0 = __this->___planetView;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___planet);
+		Il2CppFakeBox<int32_t> L_2(Planet_t2E7D91CC5C418DA36A4A9D5904C017B41636E873_il2cpp_TypeInfo_var, L_1);
+		String_t* L_3;
+		L_3 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_2), NULL);
+		String_t* L_4;
+		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralBA855CD78B95A8C4D1BCDFD4F3198CC30773999F, L_3, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_4, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/PlanetSelectable.cs:24>
+		PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* L_5;
+		L_5 = PlanetSelectionSystem_get_Instance_m3076E0BB0559AF84BAC77DD6E674E097623D6B11_inline(NULL);
+		PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* L_6 = L_5;
+		if (L_6)
+		{
+			G_B2_0 = L_6;
+			goto IL_0032;
+		}
+		G_B1_0 = L_6;
+	}
+	{
+		goto IL_003e;
+	}
+
+IL_0032:
+	{
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_7 = __this->___planetView;
+		NullCheck(G_B2_0);
+		PlanetSelectionSystem_SelectPlanet_m69307A1AA219D912A54A67D715E64CCC56DA07E6(G_B2_0, L_7, NULL);
+	}
+
+IL_003e:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/PlanetSelectable.cs:25>
+		return;
+	}
+}
+// Method Definition Index: 80012
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSelectable_OnDestroy_m98226441D8F105E70F5EB8145F63B1E1AEEB9ABF (PlanetSelectable_t954CD76C7D7BF93862A6B4DC851343B3CD88D819* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectable_OnDestroy_m98226441D8F105E70F5EB8145F63B1E1AEEB9ABF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectable_OnSelected_m8943D8F036AF93F9BD213A94F7ABFA901189AF52_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetSelectable_OnDestroy_m98226441D8F105E70F5EB8145F63B1E1AEEB9ABF_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/PlanetSelectable.cs:29>
+		XRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2* L_0 = __this->___interactable;
+		NullCheck(L_0);
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_1;
+		L_1 = XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline(L_0, NULL);
+		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_2 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_2, __this, (intptr_t)((void*)PlanetSelectable_OnSelected_m8943D8F036AF93F9BD213A94F7ABFA901189AF52_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB(L_1, L_2, UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/PlanetSelectable.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 80013
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSelectable__ctor_m493713FA6A63A2D93527750377A9B9E6D8F587A1 (PlanetSelectable_t954CD76C7D7BF93862A6B4DC851343B3CD88D819* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectable__ctor_m493713FA6A63A2D93527750377A9B9E6D8F587A1_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetSelectable__ctor_m493713FA6A63A2D93527750377A9B9E6D8F587A1_RuntimeMethod_var);
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 80014
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SolarSystemGrabHandler_Awake_mCD1F73E94023BC9F9609CF35ACA64CD09576918E (SolarSystemGrabHandler_t1FE79F78B56B0CC0EAB2160FAE0385623892B56D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisXRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B_m49377F1D0DBAB9BDC59DFC6851E9A5D687717C14_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarSystemGrabHandler_Awake_mCD1F73E94023BC9F9609CF35ACA64CD09576918E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarSystemGrabHandler_OnGrabbed_m1E27E36E8D371360A194DCF40F147AD9BFDC794C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarSystemGrabHandler_OnReleased_m8E09E902173FE6C48AD0C74657B10FF6267F235D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SolarSystemGrabHandler_Awake_mCD1F73E94023BC9F9609CF35ACA64CD09576918E_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/SolarSystemGrabHandler.cs:10>
+		XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* L_0;
+		L_0 = Component_GetComponent_TisXRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B_m49377F1D0DBAB9BDC59DFC6851E9A5D687717C14(__this, Component_GetComponent_TisXRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B_m49377F1D0DBAB9BDC59DFC6851E9A5D687717C14_RuntimeMethod_var);
+		__this->___grabInteractable = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___grabInteractable), (void*)L_0);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/SolarSystemGrabHandler.cs:12>
+		XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* L_1 = __this->___grabInteractable;
+		NullCheck(L_1);
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_2;
+		L_2 = XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline(L_1, NULL);
+		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_3 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_3, __this, (intptr_t)((void*)SolarSystemGrabHandler_OnGrabbed_m1E27E36E8D371360A194DCF40F147AD9BFDC794C_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2(L_2, L_3, UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/SolarSystemGrabHandler.cs:13>
+		XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* L_4 = __this->___grabInteractable;
+		NullCheck(L_4);
+		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_5;
+		L_5 = XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline(L_4, NULL);
+		UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* L_6 = (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*)il2cpp_codegen_object_new(UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_6, __this, (intptr_t)((void*)SolarSystemGrabHandler_OnReleased_m8E09E902173FE6C48AD0C74657B10FF6267F235D_RuntimeMethod_var), NULL);
+		NullCheck(L_5);
+		UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602(L_5, L_6, UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/SolarSystemGrabHandler.cs:14>
+		return;
+	}
+}
+// Method Definition Index: 80015
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SolarSystemGrabHandler_OnGrabbed_m1E27E36E8D371360A194DCF40F147AD9BFDC794C (SolarSystemGrabHandler_t1FE79F78B56B0CC0EAB2160FAE0385623892B56D* __this, SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938* ___0_args, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarSystemGrabHandler_OnGrabbed_m1E27E36E8D371360A194DCF40F147AD9BFDC794C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAFDBB952AA5AC790DD38A9D7011E28C3230D3FB0);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SolarSystemGrabHandler_OnGrabbed_m1E27E36E8D371360A194DCF40F147AD9BFDC794C_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/SolarSystemGrabHandler.cs:18>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralAFDBB952AA5AC790DD38A9D7011E28C3230D3FB0, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/SolarSystemGrabHandler.cs:19>
+		return;
+	}
+}
+// Method Definition Index: 80016
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SolarSystemGrabHandler_OnReleased_m8E09E902173FE6C48AD0C74657B10FF6267F235D (SolarSystemGrabHandler_t1FE79F78B56B0CC0EAB2160FAE0385623892B56D* __this, SelectExitEventArgs_t56125CE0360D37AC0B50EB6066B5AB5957EF559A* ___0_args, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarSystemGrabHandler_OnReleased_m8E09E902173FE6C48AD0C74657B10FF6267F235D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral144781AFE758166299B4E92795C1255BA466656B);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SolarSystemGrabHandler_OnReleased_m8E09E902173FE6C48AD0C74657B10FF6267F235D_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/SolarSystemGrabHandler.cs:23>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral144781AFE758166299B4E92795C1255BA466656B, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/SolarSystemGrabHandler.cs:24>
+		return;
+	}
+}
+// Method Definition Index: 80017
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SolarSystemGrabHandler_OnDestroy_mD5A6A024653427FCC50DD273B5BFCB808477BE84 (SolarSystemGrabHandler_t1FE79F78B56B0CC0EAB2160FAE0385623892B56D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarSystemGrabHandler_OnDestroy_mD5A6A024653427FCC50DD273B5BFCB808477BE84_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarSystemGrabHandler_OnGrabbed_m1E27E36E8D371360A194DCF40F147AD9BFDC794C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarSystemGrabHandler_OnReleased_m8E09E902173FE6C48AD0C74657B10FF6267F235D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SolarSystemGrabHandler_OnDestroy_mD5A6A024653427FCC50DD273B5BFCB808477BE84_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/SolarSystemGrabHandler.cs:28>
+		XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* L_0 = __this->___grabInteractable;
+		NullCheck(L_0);
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_1;
+		L_1 = XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline(L_0, NULL);
+		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_2 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_2, __this, (intptr_t)((void*)SolarSystemGrabHandler_OnGrabbed_m1E27E36E8D371360A194DCF40F147AD9BFDC794C_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB(L_1, L_2, UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/SolarSystemGrabHandler.cs:29>
+		XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* L_3 = __this->___grabInteractable;
+		NullCheck(L_3);
+		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_4;
+		L_4 = XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline(L_3, NULL);
+		UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* L_5 = (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*)il2cpp_codegen_object_new(UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_5, __this, (intptr_t)((void*)SolarSystemGrabHandler_OnReleased_m8E09E902173FE6C48AD0C74657B10FF6267F235D_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B(L_4, L_5, UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Interactions/SolarSystemGrabHandler.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 80018
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SolarSystemGrabHandler__ctor_m18B7233E8811F55DD9D49FA1B2E476C950B5CCC9 (SolarSystemGrabHandler_t1FE79F78B56B0CC0EAB2160FAE0385623892B56D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SolarSystemGrabHandler__ctor_m18B7233E8811F55DD9D49FA1B2E476C950B5CCC9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SolarSystemGrabHandler__ctor_m18B7233E8811F55DD9D49FA1B2E476C950B5CCC9_RuntimeMethod_var);
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 80019
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D TimeModel_get_CurrentTime_m07C8E81C1FC0B3B52F4F9E26693735B2C9BE18EB (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeModel_get_CurrentTime_m07C8E81C1FC0B3B52F4F9E26693735B2C9BE18EB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeModel_get_CurrentTime_m07C8E81C1FC0B3B52F4F9E26693735B2C9BE18EB_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:5>
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = __this->___U3CCurrentTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 80020
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeModel_set_CurrentTime_m36E3B9FE7E695168CA0ADBCC5A36338F759685FF (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeModel_set_CurrentTime_m36E3B9FE7E695168CA0ADBCC5A36338F759685FF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeModel_set_CurrentTime_m36E3B9FE7E695168CA0ADBCC5A36338F759685FF_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:5>
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = ___0_value;
+		__this->___U3CCurrentTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 80021
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TimeModel_get_TimeScale_m5E371E864917AA319FDE009D50EF0C1308BED272 (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeModel_get_TimeScale_m5E371E864917AA319FDE009D50EF0C1308BED272_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeModel_get_TimeScale_m5E371E864917AA319FDE009D50EF0C1308BED272_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:7>
+		float L_0 = __this->___U3CTimeScaleU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 80022
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeModel_set_TimeScale_m6F7D6E37ACA1B66DAE428B6DEFC40E941451CA08 (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeModel_set_TimeScale_m6F7D6E37ACA1B66DAE428B6DEFC40E941451CA08_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeModel_set_TimeScale_m6F7D6E37ACA1B66DAE428B6DEFC40E941451CA08_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:7>
+		float L_0 = ___0_value;
+		__this->___U3CTimeScaleU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 80023
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeModel_get_IsPlaying_m9B481B130E5D51B56BEB2D1ED9A7F84399F09717 (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeModel_get_IsPlaying_m9B481B130E5D51B56BEB2D1ED9A7F84399F09717_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeModel_get_IsPlaying_m9B481B130E5D51B56BEB2D1ED9A7F84399F09717_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:9>
+		bool L_0 = __this->___U3CIsPlayingU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 80024
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeModel_set_IsPlaying_m724051B020B45FE504A3B386BE0207E0D76C1981 (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeModel_set_IsPlaying_m724051B020B45FE504A3B386BE0207E0D76C1981_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeModel_set_IsPlaying_m724051B020B45FE504A3B386BE0207E0D76C1981_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:9>
+		bool L_0 = ___0_value;
+		__this->___U3CIsPlayingU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 80025
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeModel_add_OnTimeChanged_m08D20382DA01839697DCEEB9049253E4AA7EE36B (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeModel_add_OnTimeChanged_m08D20382DA01839697DCEEB9049253E4AA7EE36B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeModel_add_OnTimeChanged_m08D20382DA01839697DCEEB9049253E4AA7EE36B_RuntimeMethod_var);
+	Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* V_0 = NULL;
+	Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* V_1 = NULL;
+	Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* V_2 = NULL;
+	{
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_0 = __this->___OnTimeChanged;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_2 = V_1;
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B*)Castclass((RuntimeObject*)L_4, Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B_il2cpp_TypeInfo_var));
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B** L_5 = (Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B**)(&__this->___OnTimeChanged);
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_6 = V_2;
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_7 = V_1;
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_9 = V_0;
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B*)L_9) == ((RuntimeObject*)(Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 80026
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeModel_remove_OnTimeChanged_mA3459156D4281E6007CF57E01DBF91C0958BBA19 (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeModel_remove_OnTimeChanged_mA3459156D4281E6007CF57E01DBF91C0958BBA19_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeModel_remove_OnTimeChanged_mA3459156D4281E6007CF57E01DBF91C0958BBA19_RuntimeMethod_var);
+	Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* V_0 = NULL;
+	Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* V_1 = NULL;
+	Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* V_2 = NULL;
+	{
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_0 = __this->___OnTimeChanged;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_2 = V_1;
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B*)Castclass((RuntimeObject*)L_4, Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B_il2cpp_TypeInfo_var));
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B** L_5 = (Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B**)(&__this->___OnTimeChanged);
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_6 = V_2;
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_7 = V_1;
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_9 = V_0;
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B*)L_9) == ((RuntimeObject*)(Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 80027
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeModel_SetTime_mD352602897B5A617FEA7F0CD583204C0A5D886D0 (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_t, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeModel_SetTime_mD352602897B5A617FEA7F0CD583204C0A5D886D0_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeModel_SetTime_mD352602897B5A617FEA7F0CD583204C0A5D886D0_RuntimeMethod_var);
+	Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* G_B2_0 = NULL;
+	Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* G_B1_0 = NULL;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:15>
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = ___0_t;
+		TimeModel_set_CurrentTime_m36E3B9FE7E695168CA0ADBCC5A36338F759685FF_inline(__this, L_0, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:16>
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_1 = __this->___OnTimeChanged;
+		Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* L_2 = L_1;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			goto IL_0015;
+		}
+		G_B1_0 = L_2;
+	}
+	{
+		goto IL_0021;
+	}
+
+IL_0015:
+	{
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_3;
+		L_3 = TimeModel_get_CurrentTime_m07C8E81C1FC0B3B52F4F9E26693735B2C9BE18EB_inline(__this, NULL);
+		NullCheck(G_B2_0);
+		Action_1_Invoke_m8180866D0B72B5B8758B3138DE9404CB754B9779_inline(G_B2_0, L_3, NULL);
+	}
+
+IL_0021:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:17>
+		return;
+	}
+}
+// Method Definition Index: 80028
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeModel_SetScale_mC2ED8F2D4EBDCBA81701D5BBDF8B382F0DB62A74 (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, float ___0_scale, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeModel_SetScale_mC2ED8F2D4EBDCBA81701D5BBDF8B382F0DB62A74_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeModel_SetScale_mC2ED8F2D4EBDCBA81701D5BBDF8B382F0DB62A74_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:21>
+		float L_0 = ___0_scale;
+		TimeModel_set_TimeScale_m6F7D6E37ACA1B66DAE428B6DEFC40E941451CA08_inline(__this, L_0, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:22>
+		return;
+	}
+}
+// Method Definition Index: 80029
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeModel_Play_m497F34894FFFE58535A49BC431C3599248B694B8 (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeModel_Play_m497F34894FFFE58535A49BC431C3599248B694B8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeModel_Play_m497F34894FFFE58535A49BC431C3599248B694B8_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:26>
+		TimeModel_set_IsPlaying_m724051B020B45FE504A3B386BE0207E0D76C1981_inline(__this, (bool)1, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:27>
+		return;
+	}
+}
+// Method Definition Index: 80030
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeModel_Pause_m2BA8ACE2D05537505D93EDD4C69DCCDD4A0BD0BF (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeModel_Pause_m2BA8ACE2D05537505D93EDD4C69DCCDD4A0BD0BF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeModel_Pause_m2BA8ACE2D05537505D93EDD4C69DCCDD4A0BD0BF_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:31>
+		TimeModel_set_IsPlaying_m724051B020B45FE504A3B386BE0207E0D76C1981_inline(__this, (bool)0, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 80031
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeModel__ctor_mF88124F338842BFEDA37F1E0530EFA931DCA9534 (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeModel__ctor_mF88124F338842BFEDA37F1E0530EFA931DCA9534_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TimeModel__ctor_mF88124F338842BFEDA37F1E0530EFA931DCA9534_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:7>
+		__this->___U3CTimeScaleU3Ek__BackingField = (1.0f);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:9>
+		__this->___U3CIsPlayingU3Ek__BackingField = (bool)1;
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 80032
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PlanetData_GetPlanetPosition_m7B39B09FC8BBDE24E778C38C1EE51FBE8F965D08 (int32_t ___0_p, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___1_t, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetData_GetPlanetPosition_m7B39B09FC8BBDE24E778C38C1EE51FBE8F965D08_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetData_GetPlanetPosition_m7B39B09FC8BBDE24E778C38C1EE51FBE8F965D08_RuntimeMethod_var);
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	double V_8 = 0.0;
+	double V_9 = 0.0;
+	int32_t V_10 = 0;
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	float V_13 = 0.0f;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	bool V_15 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t G_B4_0 = 0;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:19>
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = ___1_t;
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&L_1), ((int32_t)2000), 1, 1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_2;
+		L_2 = DateTime_op_Subtraction_m64D26F5ABFAE6E166A7E567093D025F6C69F0123(L_0, L_1, NULL);
+		V_14 = L_2;
+		il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
+		double L_3;
+		L_3 = TimeSpan_get_TotalDays_m7B3557D0DD79E39DFC6C08BAC756B1B5DE2D4108((&V_14), NULL);
+		V_0 = ((float)(((float)L_3)/(36525.0f)));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:20>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:21>
+		int32_t L_4 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5;
+		L_5 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_4, 0, NULL);
+		NullCheck(L_5);
+		int32_t L_6 = 0;
+		float L_7 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		int32_t L_8 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_9;
+		L_9 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_8, 0, NULL);
+		NullCheck(L_9);
+		int32_t L_10 = 1;
+		float L_11 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		float L_12 = V_0;
+		V_1 = ((float)il2cpp_codegen_add(L_7, ((float)il2cpp_codegen_multiply(L_11, L_12))));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:22>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:23>
+		int32_t L_13 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_14;
+		L_14 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_13, 4, NULL);
+		NullCheck(L_14);
+		int32_t L_15 = 0;
+		float L_16 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		int32_t L_17 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_18;
+		L_18 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_17, 4, NULL);
+		NullCheck(L_18);
+		int32_t L_19 = 1;
+		float L_20 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		float L_21 = V_0;
+		V_2 = ((float)il2cpp_codegen_add(L_16, ((float)il2cpp_codegen_multiply(L_20, L_21))));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:24>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:25>
+		int32_t L_22 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_23;
+		L_23 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_22, 5, NULL);
+		NullCheck(L_23);
+		int32_t L_24 = 0;
+		float L_25 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		int32_t L_26 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_27;
+		L_27 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_26, 5, NULL);
+		NullCheck(L_27);
+		int32_t L_28 = 1;
+		float L_29 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		float L_30 = V_0;
+		V_3 = ((float)il2cpp_codegen_add(L_25, ((float)il2cpp_codegen_multiply(L_29, L_30))));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:26>
+		float L_31 = V_2;
+		float L_32 = V_3;
+		V_4 = ((float)il2cpp_codegen_subtract(L_31, L_32));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:27>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:28>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:29>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:30>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:31>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:32>
+		int32_t L_33 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_34;
+		L_34 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_33, 3, NULL);
+		NullCheck(L_34);
+		int32_t L_35 = 0;
+		float L_36 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		int32_t L_37 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_38;
+		L_38 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_37, 3, NULL);
+		NullCheck(L_38);
+		int32_t L_39 = 1;
+		float L_40 = (L_38)->GetAt(static_cast<il2cpp_array_size_t>(L_39));
+		float L_41 = V_0;
+		float L_42 = V_2;
+		int32_t L_43 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_44;
+		L_44 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_43, 6, NULL);
+		NullCheck(L_44);
+		int32_t L_45 = 0;
+		float L_46 = (L_44)->GetAt(static_cast<il2cpp_array_size_t>(L_45));
+		float L_47 = V_0;
+		float L_48 = V_0;
+		int32_t L_49 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_50;
+		L_50 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_49, 7, NULL);
+		NullCheck(L_50);
+		int32_t L_51 = 0;
+		float L_52 = (L_50)->GetAt(static_cast<il2cpp_array_size_t>(L_51));
+		int32_t L_53 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_54;
+		L_54 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_53, ((int32_t)9), NULL);
+		NullCheck(L_54);
+		int32_t L_55 = 0;
+		float L_56 = (L_54)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
+		float L_57 = V_0;
+		float L_58;
+		L_58 = cosf(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply((0.0174532924f), L_56)), L_57)));
+		int32_t L_59 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_60;
+		L_60 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_59, 8, NULL);
+		NullCheck(L_60);
+		int32_t L_61 = 0;
+		float L_62 = (L_60)->GetAt(static_cast<il2cpp_array_size_t>(L_61));
+		int32_t L_63 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_64;
+		L_64 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_63, ((int32_t)9), NULL);
+		NullCheck(L_64);
+		int32_t L_65 = 0;
+		float L_66 = (L_64)->GetAt(static_cast<il2cpp_array_size_t>(L_65));
+		float L_67 = V_0;
+		float L_68;
+		L_68 = cosf(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply((0.0174532924f), L_66)), L_67)));
+		V_5 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_36, ((float)il2cpp_codegen_multiply(L_40, L_41)))), L_42)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_46, L_47)), L_48)))), ((float)il2cpp_codegen_multiply(L_52, L_58)))), ((float)il2cpp_codegen_multiply(L_62, L_68))));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:34>
+		float L_69 = V_5;
+		V_5 = ((float)il2cpp_codegen_subtract((fmodf(L_69, (360.0f))), (180.0f)));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:36>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:37>
+		int32_t L_70 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_71;
+		L_71 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_70, 1, NULL);
+		NullCheck(L_71);
+		int32_t L_72 = 0;
+		float L_73 = (L_71)->GetAt(static_cast<il2cpp_array_size_t>(L_72));
+		int32_t L_74 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_75;
+		L_75 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_74, 1, NULL);
+		NullCheck(L_75);
+		int32_t L_76 = 1;
+		float L_77 = (L_75)->GetAt(static_cast<il2cpp_array_size_t>(L_76));
+		float L_78 = V_0;
+		V_6 = ((float)il2cpp_codegen_add(L_73, ((float)il2cpp_codegen_multiply(L_77, L_78))));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:38>
+		float L_79 = V_6;
+		V_7 = ((float)(((float)il2cpp_codegen_multiply(L_79, (180.0f)))/(3.14159274f)));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:41>
+		float L_80 = V_5;
+		float L_81 = V_7;
+		float L_82 = V_5;
+		float L_83;
+		L_83 = sinf(((float)il2cpp_codegen_multiply((0.0174532924f), L_82)));
+		V_8 = ((double)((float)il2cpp_codegen_subtract(L_80, ((float)il2cpp_codegen_multiply(L_81, L_83)))));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:44>
+		V_10 = 0;
+	}
+
+IL_0126:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:52>
+		float L_84 = V_5;
+		double L_85 = V_8;
+		float L_86 = V_7;
+		double L_87 = V_8;
+		float L_88;
+		L_88 = sinf(((float)((double)il2cpp_codegen_multiply((0.01745329238474369), L_87))));
+		V_9 = ((double)il2cpp_codegen_add(((double)il2cpp_codegen_subtract(((double)L_84), L_85)), ((double)((float)il2cpp_codegen_multiply(L_86, L_88)))));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:53>
+		double L_89 = V_8;
+		double L_90 = V_9;
+		V_8 = ((double)il2cpp_codegen_add(L_89, L_90));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:54>
+		int32_t L_91 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_91, 1));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:55>
+		double L_92 = V_9;
+		float L_93;
+		L_93 = fabsf(((float)L_92));
+		if ((!(((double)((double)L_93)) > ((double)(9.9999999999999995E-07)))))
+		{
+			goto IL_0170;
+		}
+	}
+	{
+		int32_t L_94 = V_10;
+		G_B4_0 = ((((int32_t)L_94) < ((int32_t)((int32_t)100)))? 1 : 0);
+		goto IL_0171;
+	}
+
+IL_0170:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_0171:
+	{
+		V_15 = (bool)G_B4_0;
+		bool L_95 = V_15;
+		if (L_95)
+		{
+			goto IL_0126;
+		}
+	}
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:57>
+		float L_96 = V_1;
+		double L_97 = V_8;
+		float L_98;
+		L_98 = cosf(((float)((double)il2cpp_codegen_multiply((0.01745329238474369), L_97))));
+		float L_99 = V_6;
+		V_11 = ((float)il2cpp_codegen_multiply(L_96, ((float)il2cpp_codegen_subtract(L_98, L_99))));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:58>
+		float L_100 = V_1;
+		float L_101 = V_6;
+		float L_102 = V_6;
+		float L_103;
+		L_103 = sqrtf(((float)il2cpp_codegen_subtract((1.0f), ((float)il2cpp_codegen_multiply(L_101, L_102)))));
+		double L_104 = V_8;
+		float L_105;
+		L_105 = sinf(((float)((double)il2cpp_codegen_multiply((0.01745329238474369), L_104))));
+		V_12 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_100, L_103)), L_105));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:60>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:61>
+		int32_t L_106 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_107;
+		L_107 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_106, 2, NULL);
+		NullCheck(L_107);
+		int32_t L_108 = 0;
+		float L_109 = (L_107)->GetAt(static_cast<il2cpp_array_size_t>(L_108));
+		int32_t L_110 = ___0_p;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_111;
+		L_111 = PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE(L_110, 2, NULL);
+		NullCheck(L_111);
+		int32_t L_112 = 1;
+		float L_113 = (L_111)->GetAt(static_cast<il2cpp_array_size_t>(L_112));
+		float L_114 = V_0;
+		V_13 = ((float)il2cpp_codegen_add(L_109, ((float)il2cpp_codegen_multiply(L_113, L_114))));
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:63>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:64>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:65>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:66>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:67>
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:68>
+		float L_115 = V_4;
+		float L_116;
+		L_116 = cosf(((float)il2cpp_codegen_multiply((0.0174532924f), L_115)));
+		float L_117 = V_3;
+		float L_118;
+		L_118 = cosf(((float)il2cpp_codegen_multiply((0.0174532924f), L_117)));
+		float L_119 = V_4;
+		float L_120;
+		L_120 = sinf(((float)il2cpp_codegen_multiply((0.0174532924f), L_119)));
+		float L_121 = V_3;
+		float L_122;
+		L_122 = sinf(((float)il2cpp_codegen_multiply((0.0174532924f), L_121)));
+		float L_123 = V_13;
+		float L_124;
+		L_124 = cosf(((float)il2cpp_codegen_multiply((0.0174532924f), L_123)));
+		float L_125 = V_11;
+		float L_126 = V_4;
+		float L_127;
+		L_127 = sinf(((float)il2cpp_codegen_multiply((0.0174532924f), L_126)));
+		float L_128 = V_3;
+		float L_129;
+		L_129 = cosf(((float)il2cpp_codegen_multiply((0.0174532924f), L_128)));
+		float L_130 = V_4;
+		float L_131;
+		L_131 = cosf(((float)il2cpp_codegen_multiply((0.0174532924f), L_130)));
+		float L_132 = V_3;
+		float L_133;
+		L_133 = sinf(((float)il2cpp_codegen_multiply((0.0174532924f), L_132)));
+		float L_134 = V_13;
+		float L_135;
+		L_135 = cosf(((float)il2cpp_codegen_multiply((0.0174532924f), L_134)));
+		float L_136 = V_12;
+		float L_137 = V_4;
+		float L_138;
+		L_138 = cosf(((float)il2cpp_codegen_multiply((0.0174532924f), L_137)));
+		float L_139 = V_3;
+		float L_140;
+		L_140 = sinf(((float)il2cpp_codegen_multiply((0.0174532924f), L_139)));
+		float L_141 = V_4;
+		float L_142;
+		L_142 = sinf(((float)il2cpp_codegen_multiply((0.0174532924f), L_141)));
+		float L_143 = V_3;
+		float L_144;
+		L_144 = cosf(((float)il2cpp_codegen_multiply((0.0174532924f), L_143)));
+		float L_145 = V_13;
+		float L_146;
+		L_146 = cosf(((float)il2cpp_codegen_multiply((0.0174532924f), L_145)));
+		float L_147 = V_11;
+		float L_148 = V_4;
+		float L_149;
+		L_149 = sinf(((float)il2cpp_codegen_multiply((0.0174532924f), L_148)));
+		float L_150 = V_3;
+		float L_151;
+		L_151 = sinf(((float)il2cpp_codegen_multiply((0.0174532924f), L_150)));
+		float L_152 = V_4;
+		float L_153;
+		L_153 = cosf(((float)il2cpp_codegen_multiply((0.0174532924f), L_152)));
+		float L_154 = V_3;
+		float L_155;
+		L_155 = cosf(((float)il2cpp_codegen_multiply((0.0174532924f), L_154)));
+		float L_156 = V_13;
+		float L_157;
+		L_157 = cosf(((float)il2cpp_codegen_multiply((0.0174532924f), L_156)));
+		float L_158 = V_12;
+		float L_159 = V_4;
+		float L_160;
+		L_160 = sinf(((float)il2cpp_codegen_multiply((0.0174532924f), L_159)));
+		float L_161 = V_13;
+		float L_162;
+		L_162 = sinf(((float)il2cpp_codegen_multiply((0.0174532924f), L_161)));
+		float L_163 = V_11;
+		float L_164 = V_4;
+		float L_165;
+		L_165 = cosf(((float)il2cpp_codegen_multiply((0.0174532924f), L_164)));
+		float L_166 = V_13;
+		float L_167;
+		L_167 = sinf(((float)il2cpp_codegen_multiply((0.0174532924f), L_166)));
+		float L_168 = V_12;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_169;
+		memset((&L_169), 0, sizeof(L_169));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_169), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_116, L_118)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_120, L_122)), L_124)))), L_125)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((-L_127)), L_129)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_131, L_133)), L_135)))), L_136)))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_138, L_140)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_142, L_144)), L_146)))), L_147)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((-L_149)), L_151)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_153, L_155)), L_157)))), L_158)))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_160, L_162)), L_163)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_165, L_167)), L_168)))), NULL);
+		V_16 = L_169;
+		goto IL_0330;
+	}
+
+IL_0330:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:69>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_170 = V_16;
+		return L_170;
+	}
+}
+// Method Definition Index: 80033
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE (int32_t ___0_planet, int32_t ___1_param, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetData_GetKeplerParameter_m2C3BE8F0E781BC5C81A72C4FF007B41D1052B2FE_RuntimeMethod_var);
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_4 = NULL;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	int32_t V_12 = 0;
+	int32_t V_13 = 0;
+	int32_t V_14 = 0;
+	int32_t V_15 = 0;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:73>
+		int32_t L_0 = ___0_planet;
+		V_1 = L_0;
+		int32_t L_1 = V_1;
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0030;
+			}
+			case 1:
+			{
+				goto IL_010a;
+			}
+			case 2:
+			{
+				goto IL_01f0;
+			}
+			case 3:
+			{
+				goto IL_02d6;
+			}
+			case 4:
+			{
+				goto IL_03bc;
+			}
+			case 5:
+			{
+				goto IL_04fe;
+			}
+			case 6:
+			{
+				goto IL_0640;
+			}
+			case 7:
+			{
+				goto IL_0782;
+			}
+		}
+	}
+	{
+		goto IL_08af;
+	}
+
+IL_0030:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:76>
+		int32_t L_3 = ___1_param;
+		V_3 = L_3;
+		int32_t L_4 = V_3;
+		V_2 = L_4;
+		int32_t L_5 = V_2;
+		switch (L_5)
+		{
+			case 0:
+			{
+				goto IL_0057;
+			}
+			case 1:
+			{
+				goto IL_006c;
+			}
+			case 2:
+			{
+				goto IL_0089;
+			}
+			case 3:
+			{
+				goto IL_00a6;
+			}
+			case 4:
+			{
+				goto IL_00c3;
+			}
+			case 5:
+			{
+				goto IL_00e0;
+			}
+		}
+	}
+	{
+		goto IL_00fd;
+	}
+
+IL_0057:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:79>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_6 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_7 = L_6;
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.387099266f));
+		V_4 = L_7;
+		goto IL_08b9;
+	}
+
+IL_006c:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:81>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_8 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_9 = L_8;
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.205636606f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_10 = L_9;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(2.12300001E-05f));
+		V_4 = L_10;
+		goto IL_08b9;
+	}
+
+IL_0089:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:83>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_11 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_12 = L_11;
+		NullCheck(L_12);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(7.00559425f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_13 = L_12;
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-0.00590158021f));
+		V_4 = L_13;
+		goto IL_08b9;
+	}
+
+IL_00a6:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:85>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_14 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_15 = L_14;
+		NullCheck(L_15);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(252.251663f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_16 = L_15;
+		NullCheck(L_16);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(149472.672f));
+		V_4 = L_16;
+		goto IL_08b9;
+	}
+
+IL_00c3:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:87>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_18 = L_17;
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(77.4577179f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_19 = L_18;
+		NullCheck(L_19);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.159400135f));
+		V_4 = L_19;
+		goto IL_08b9;
+	}
+
+IL_00e0:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:89>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_20 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_21 = L_20;
+		NullCheck(L_21);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(48.3396187f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_22 = L_21;
+		NullCheck(L_22);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-0.122141823f));
+		V_4 = L_22;
+		goto IL_08b9;
+	}
+
+IL_00fd:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:91>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_23 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		V_4 = L_23;
+		goto IL_08b9;
+	}
+
+IL_010a:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:94>
+		int32_t L_24 = ___1_param;
+		V_6 = L_24;
+		int32_t L_25 = V_6;
+		V_5 = L_25;
+		int32_t L_26 = V_5;
+		switch (L_26)
+		{
+			case 0:
+			{
+				goto IL_0135;
+			}
+			case 1:
+			{
+				goto IL_0152;
+			}
+			case 2:
+			{
+				goto IL_016f;
+			}
+			case 3:
+			{
+				goto IL_018c;
+			}
+			case 4:
+			{
+				goto IL_01a9;
+			}
+			case 5:
+			{
+				goto IL_01c6;
+			}
+		}
+	}
+	{
+		goto IL_01e3;
+	}
+
+IL_0135:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:97>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_27 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_28 = L_27;
+		NullCheck(L_28);
+		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.723321021f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_29 = L_28;
+		NullCheck(L_29);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-2.60000007E-07f));
+		V_4 = L_29;
+		goto IL_08b9;
+	}
+
+IL_0152:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:99>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_30 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_31 = L_30;
+		NullCheck(L_31);
+		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.00676399004f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_32 = L_31;
+		NullCheck(L_32);
+		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-5.10700011E-05f));
+		V_4 = L_32;
+		goto IL_08b9;
+	}
+
+IL_016f:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:101>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_33 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_34 = L_33;
+		NullCheck(L_34);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(3.39777541f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_35 = L_34;
+		NullCheck(L_35);
+		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.000434940011f));
+		V_4 = L_35;
+		goto IL_08b9;
+	}
+
+IL_018c:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:103>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_36 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_37 = L_36;
+		NullCheck(L_37);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(181.979706f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_38 = L_37;
+		NullCheck(L_38);
+		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(58517.8164f));
+		V_4 = L_38;
+		goto IL_08b9;
+	}
+
+IL_01a9:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:105>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_39 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_40 = L_39;
+		NullCheck(L_40);
+		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(131.767563f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_41 = L_40;
+		NullCheck(L_41);
+		(L_41)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.05679648f));
+		V_4 = L_41;
+		goto IL_08b9;
+	}
+
+IL_01c6:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:107>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_42 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_43 = L_42;
+		NullCheck(L_43);
+		(L_43)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(76.6726151f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_44 = L_43;
+		NullCheck(L_44);
+		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-0.272741735f));
+		V_4 = L_44;
+		goto IL_08b9;
+	}
+
+IL_01e3:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:109>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_45 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		V_4 = L_45;
+		goto IL_08b9;
+	}
+
+IL_01f0:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:112>
+		int32_t L_46 = ___1_param;
+		V_8 = L_46;
+		int32_t L_47 = V_8;
+		V_7 = L_47;
+		int32_t L_48 = V_7;
+		switch (L_48)
+		{
+			case 0:
+			{
+				goto IL_021b;
+			}
+			case 1:
+			{
+				goto IL_0238;
+			}
+			case 2:
+			{
+				goto IL_0255;
+			}
+			case 3:
+			{
+				goto IL_0272;
+			}
+			case 4:
+			{
+				goto IL_028f;
+			}
+			case 5:
+			{
+				goto IL_02ac;
+			}
+		}
+	}
+	{
+		goto IL_02c9;
+	}
+
+IL_021b:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:115>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_49 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_50 = L_49;
+		NullCheck(L_50);
+		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(1.00000024f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_51 = L_50;
+		NullCheck(L_51);
+		(L_51)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-2.99999989E-08f));
+		V_4 = L_51;
+		goto IL_08b9;
+	}
+
+IL_0238:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:117>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_52 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_53 = L_52;
+		NullCheck(L_53);
+		(L_53)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.0167316291f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_54 = L_53;
+		NullCheck(L_54);
+		(L_54)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-3.66099994E-05f));
+		V_4 = L_54;
+		goto IL_08b9;
+	}
+
+IL_0255:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:119>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_55 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_56 = L_55;
+		NullCheck(L_56);
+		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(-0.000543460017f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_57 = L_56;
+		NullCheck(L_57);
+		(L_57)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-0.0133717796f));
+		V_4 = L_57;
+		goto IL_08b9;
+	}
+
+IL_0272:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:121>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_58 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_59 = L_58;
+		NullCheck(L_59);
+		(L_59)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(100.466919f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_60 = L_59;
+		NullCheck(L_60);
+		(L_60)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(35999.375f));
+		V_4 = L_60;
+		goto IL_08b9;
+	}
+
+IL_028f:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:123>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_61 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_62 = L_61;
+		NullCheck(L_62);
+		(L_62)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(102.930061f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_63 = L_62;
+		NullCheck(L_63);
+		(L_63)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.317952603f));
+		V_4 = L_63;
+		goto IL_08b9;
+	}
+
+IL_02ac:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:125>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_64 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_65 = L_64;
+		NullCheck(L_65);
+		(L_65)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(-5.11260366f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_66 = L_65;
+		NullCheck(L_66);
+		(L_66)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-0.241238564f));
+		V_4 = L_66;
+		goto IL_08b9;
+	}
+
+IL_02c9:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:127>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_67 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		V_4 = L_67;
+		goto IL_08b9;
+	}
+
+IL_02d6:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:130>
+		int32_t L_68 = ___1_param;
+		V_10 = L_68;
+		int32_t L_69 = V_10;
+		V_9 = L_69;
+		int32_t L_70 = V_9;
+		switch (L_70)
+		{
+			case 0:
+			{
+				goto IL_0301;
+			}
+			case 1:
+			{
+				goto IL_031e;
+			}
+			case 2:
+			{
+				goto IL_033b;
+			}
+			case 3:
+			{
+				goto IL_0358;
+			}
+			case 4:
+			{
+				goto IL_0375;
+			}
+			case 5:
+			{
+				goto IL_0392;
+			}
+		}
+	}
+	{
+		goto IL_03af;
+	}
+
+IL_0301:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:133>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_71 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_72 = L_71;
+		NullCheck(L_72);
+		(L_72)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(1.5237124f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_73 = L_72;
+		NullCheck(L_73);
+		(L_73)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(9.69999974E-07f));
+		V_4 = L_73;
+		goto IL_08b9;
+	}
+
+IL_031e:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:135>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_74 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_75 = L_74;
+		NullCheck(L_75);
+		(L_75)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.0933651105f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_76 = L_75;
+		NullCheck(L_76);
+		(L_76)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(9.14900011E-05f));
+		V_4 = L_76;
+		goto IL_08b9;
+	}
+
+IL_033b:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:137>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_77 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_78 = L_77;
+		NullCheck(L_78);
+		(L_78)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(1.85181868f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_79 = L_78;
+		NullCheck(L_79);
+		(L_79)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-0.00724756997f));
+		V_4 = L_79;
+		goto IL_08b9;
+	}
+
+IL_0358:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:139>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_80 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_81 = L_80;
+		NullCheck(L_81);
+		(L_81)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(-4.56813145f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_82 = L_81;
+		NullCheck(L_82);
+		(L_82)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(19140.2988f));
+		V_4 = L_82;
+		goto IL_08b9;
+	}
+
+IL_0375:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:141>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_83 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_84 = L_83;
+		NullCheck(L_84);
+		(L_84)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(-23.917448f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_85 = L_84;
+		NullCheck(L_85);
+		(L_85)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.452236235f));
+		V_4 = L_85;
+		goto IL_08b9;
+	}
+
+IL_0392:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:143>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_86 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_87 = L_86;
+		NullCheck(L_87);
+		(L_87)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(49.7132111f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_88 = L_87;
+		NullCheck(L_88);
+		(L_88)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-0.268524319f));
+		V_4 = L_88;
+		goto IL_08b9;
+	}
+
+IL_03af:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:145>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_89 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		V_4 = L_89;
+		goto IL_08b9;
+	}
+
+IL_03bc:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:148>
+		int32_t L_90 = ___1_param;
+		V_12 = L_90;
+		int32_t L_91 = V_12;
+		V_11 = L_91;
+		int32_t L_92 = V_11;
+		switch (L_92)
+		{
+			case 0:
+			{
+				goto IL_03f7;
+			}
+			case 1:
+			{
+				goto IL_0414;
+			}
+			case 2:
+			{
+				goto IL_0431;
+			}
+			case 3:
+			{
+				goto IL_044e;
+			}
+			case 4:
+			{
+				goto IL_046b;
+			}
+			case 5:
+			{
+				goto IL_0488;
+			}
+			case 6:
+			{
+				goto IL_04a5;
+			}
+			case 7:
+			{
+				goto IL_04ba;
+			}
+			case 8:
+			{
+				goto IL_04cf;
+			}
+			case 9:
+			{
+				goto IL_04e4;
+			}
+		}
+	}
+	{
+		goto IL_04f9;
+	}
+
+IL_03f7:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:151>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_93 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_94 = L_93;
+		NullCheck(L_94);
+		(L_94)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(5.20248032f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_95 = L_94;
+		NullCheck(L_95);
+		(L_95)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-2.86400009E-05f));
+		V_4 = L_95;
+		goto IL_08b9;
+	}
+
+IL_0414:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:153>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_96 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_97 = L_96;
+		NullCheck(L_97);
+		(L_97)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.0485358983f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_98 = L_97;
+		NullCheck(L_98);
+		(L_98)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.000180260002f));
+		V_4 = L_98;
+		goto IL_08b9;
+	}
+
+IL_0431:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:155>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_99 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_100 = L_99;
+		NullCheck(L_100);
+		(L_100)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(1.29861414f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_101 = L_100;
+		NullCheck(L_101);
+		(L_101)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-0.00322699011f));
+		V_4 = L_101;
+		goto IL_08b9;
+	}
+
+IL_044e:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:157>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_102 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_103 = L_102;
+		NullCheck(L_103);
+		(L_103)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(34.3347931f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_104 = L_103;
+		NullCheck(L_104);
+		(L_104)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(3034.90381f));
+		V_4 = L_104;
+		goto IL_08b9;
+	}
+
+IL_046b:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:159>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_105 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_106 = L_105;
+		NullCheck(L_106);
+		(L_106)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(14.2749529f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_107 = L_106;
+		NullCheck(L_107);
+		(L_107)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.181991965f));
+		V_4 = L_107;
+		goto IL_08b9;
+	}
+
+IL_0488:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:161>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_108 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_109 = L_108;
+		NullCheck(L_109);
+		(L_109)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(100.292824f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_110 = L_109;
+		NullCheck(L_110);
+		(L_110)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.130246192f));
+		V_4 = L_110;
+		goto IL_08b9;
+	}
+
+IL_04a5:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:163>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_111 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_112 = L_111;
+		NullCheck(L_112);
+		(L_112)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(-0.000124519996f));
+		V_4 = L_112;
+		goto IL_08b9;
+	}
+
+IL_04ba:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:165>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_113 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_114 = L_113;
+		NullCheck(L_114);
+		(L_114)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.0606405996f));
+		V_4 = L_114;
+		goto IL_08b9;
+	}
+
+IL_04cf:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:167>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_115 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_116 = L_115;
+		NullCheck(L_116);
+		(L_116)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(-0.356354386f));
+		V_4 = L_116;
+		goto IL_08b9;
+	}
+
+IL_04e4:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:169>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_117 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_118 = L_117;
+		NullCheck(L_118);
+		(L_118)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(38.3512497f));
+		V_4 = L_118;
+		goto IL_08b9;
+	}
+
+IL_04f9:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:171>
+		goto IL_08af;
+	}
+
+IL_04fe:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:173>
+		int32_t L_119 = ___1_param;
+		V_14 = L_119;
+		int32_t L_120 = V_14;
+		V_13 = L_120;
+		int32_t L_121 = V_13;
+		switch (L_121)
+		{
+			case 0:
+			{
+				goto IL_0539;
+			}
+			case 1:
+			{
+				goto IL_0556;
+			}
+			case 2:
+			{
+				goto IL_0573;
+			}
+			case 3:
+			{
+				goto IL_0590;
+			}
+			case 4:
+			{
+				goto IL_05ad;
+			}
+			case 5:
+			{
+				goto IL_05ca;
+			}
+			case 6:
+			{
+				goto IL_05e7;
+			}
+			case 7:
+			{
+				goto IL_05fc;
+			}
+			case 8:
+			{
+				goto IL_0611;
+			}
+			case 9:
+			{
+				goto IL_0626;
+			}
+		}
+	}
+	{
+		goto IL_063b;
+	}
+
+IL_0539:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:176>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_122 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_123 = L_122;
+		NullCheck(L_123);
+		(L_123)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(9.54149914f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_124 = L_123;
+		NullCheck(L_124);
+		(L_124)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-3.06500006E-05f));
+		V_4 = L_124;
+		goto IL_08b9;
+	}
+
+IL_0556:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:178>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_125 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_126 = L_125;
+		NullCheck(L_126);
+		(L_126)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.0555082485f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_127 = L_126;
+		NullCheck(L_127);
+		(L_127)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-0.000320440013f));
+		V_4 = L_127;
+		goto IL_08b9;
+	}
+
+IL_0573:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:180>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_128 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_129 = L_128;
+		NullCheck(L_129);
+		(L_129)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(2.494241f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_130 = L_129;
+		NullCheck(L_130);
+		(L_130)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.00451968983f));
+		V_4 = L_130;
+		goto IL_08b9;
+	}
+
+IL_0590:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:182>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_131 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_132 = L_131;
+		NullCheck(L_132);
+		(L_132)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(50.0757141f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_133 = L_132;
+		NullCheck(L_133);
+		(L_133)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(1222.11499f));
+		V_4 = L_133;
+		goto IL_08b9;
+	}
+
+IL_05ad:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:184>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_134 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_135 = L_134;
+		NullCheck(L_135);
+		(L_135)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(92.8613586f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_136 = L_135;
+		NullCheck(L_136);
+		(L_136)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.541794777f));
+		V_4 = L_136;
+		goto IL_08b9;
+	}
+
+IL_05ca:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:186>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_137 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_138 = L_137;
+		NullCheck(L_138);
+		(L_138)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(113.639984f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_139 = L_138;
+		NullCheck(L_139);
+		(L_139)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-0.250150025f));
+		V_4 = L_139;
+		goto IL_08b9;
+	}
+
+IL_05e7:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:188>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_140 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_141 = L_140;
+		NullCheck(L_141);
+		(L_141)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.00025899001f));
+		V_4 = L_141;
+		goto IL_08b9;
+	}
+
+IL_05fc:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:190>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_142 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_143 = L_142;
+		NullCheck(L_143);
+		(L_143)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(-0.134344697f));
+		V_4 = L_143;
+		goto IL_08b9;
+	}
+
+IL_0611:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:192>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_144 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_145 = L_144;
+		NullCheck(L_145);
+		(L_145)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.873201489f));
+		V_4 = L_145;
+		goto IL_08b9;
+	}
+
+IL_0626:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:194>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_146 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_147 = L_146;
+		NullCheck(L_147);
+		(L_147)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(38.3512497f));
+		V_4 = L_147;
+		goto IL_08b9;
+	}
+
+IL_063b:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:196>
+		goto IL_08af;
+	}
+
+IL_0640:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:198>
+		int32_t L_148 = ___1_param;
+		V_16 = L_148;
+		int32_t L_149 = V_16;
+		V_15 = L_149;
+		int32_t L_150 = V_15;
+		switch (L_150)
+		{
+			case 0:
+			{
+				goto IL_067b;
+			}
+			case 1:
+			{
+				goto IL_0698;
+			}
+			case 2:
+			{
+				goto IL_06b5;
+			}
+			case 3:
+			{
+				goto IL_06d2;
+			}
+			case 4:
+			{
+				goto IL_06ef;
+			}
+			case 5:
+			{
+				goto IL_070c;
+			}
+			case 6:
+			{
+				goto IL_0729;
+			}
+			case 7:
+			{
+				goto IL_073e;
+			}
+			case 8:
+			{
+				goto IL_0753;
+			}
+			case 9:
+			{
+				goto IL_0768;
+			}
+		}
+	}
+	{
+		goto IL_077d;
+	}
+
+IL_067b:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:201>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_151 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_152 = L_151;
+		NullCheck(L_152);
+		(L_152)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(19.1879787f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_153 = L_152;
+		NullCheck(L_153);
+		(L_153)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-0.00020455f));
+		V_4 = L_153;
+		goto IL_08b9;
+	}
+
+IL_0698:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:203>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_154 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_155 = L_154;
+		NullCheck(L_155);
+		(L_155)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.0468574017f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_156 = L_155;
+		NullCheck(L_156);
+		(L_156)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-1.54999998E-05f));
+		V_4 = L_156;
+		goto IL_08b9;
+	}
+
+IL_06b5:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:205>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_157 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_158 = L_157;
+		NullCheck(L_158);
+		(L_158)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.772981286f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_159 = L_158;
+		NullCheck(L_159);
+		(L_159)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-0.00180155004f));
+		V_4 = L_159;
+		goto IL_08b9;
+	}
+
+IL_06d2:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:207>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_160 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_161 = L_160;
+		NullCheck(L_161);
+		(L_161)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(314.202759f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_162 = L_161;
+		NullCheck(L_162);
+		(L_162)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(428.495117f));
+		V_4 = L_162;
+		goto IL_08b9;
+	}
+
+IL_06ef:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:209>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_163 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_164 = L_163;
+		NullCheck(L_164);
+		(L_164)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(172.434052f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_165 = L_164;
+		NullCheck(L_165);
+		(L_165)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.0926698521f));
+		V_4 = L_165;
+		goto IL_08b9;
+	}
+
+IL_070c:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:211>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_166 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_167 = L_166;
+		NullCheck(L_167);
+		(L_167)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(73.9625015f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_168 = L_167;
+		NullCheck(L_168);
+		(L_168)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.0573969893f));
+		V_4 = L_168;
+		goto IL_08b9;
+	}
+
+IL_0729:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:213>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_169 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_170 = L_169;
+		NullCheck(L_170);
+		(L_170)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.000583309971f));
+		V_4 = L_170;
+		goto IL_08b9;
+	}
+
+IL_073e:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:215>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_171 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_172 = L_171;
+		NullCheck(L_172);
+		(L_172)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(-0.977318466f));
+		V_4 = L_172;
+		goto IL_08b9;
+	}
+
+IL_0753:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:217>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_173 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_174 = L_173;
+		NullCheck(L_174);
+		(L_174)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.176892444f));
+		V_4 = L_174;
+		goto IL_08b9;
+	}
+
+IL_0768:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:219>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_175 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_176 = L_175;
+		NullCheck(L_176);
+		(L_176)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(7.67024994f));
+		V_4 = L_176;
+		goto IL_08b9;
+	}
+
+IL_077d:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:221>
+		goto IL_08af;
+	}
+
+IL_0782:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:223>
+		int32_t L_177 = ___1_param;
+		V_18 = L_177;
+		int32_t L_178 = V_18;
+		V_17 = L_178;
+		int32_t L_179 = V_17;
+		switch (L_179)
+		{
+			case 0:
+			{
+				goto IL_07bd;
+			}
+			case 1:
+			{
+				goto IL_07da;
+			}
+			case 2:
+			{
+				goto IL_07f7;
+			}
+			case 3:
+			{
+				goto IL_0814;
+			}
+			case 4:
+			{
+				goto IL_0831;
+			}
+			case 5:
+			{
+				goto IL_084b;
+			}
+			case 6:
+			{
+				goto IL_0865;
+			}
+			case 7:
+			{
+				goto IL_0877;
+			}
+			case 8:
+			{
+				goto IL_0889;
+			}
+			case 9:
+			{
+				goto IL_089b;
+			}
+		}
+	}
+	{
+		goto IL_08ad;
+	}
+
+IL_07bd:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:226>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_180 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_181 = L_180;
+		NullCheck(L_181);
+		(L_181)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(30.0695267f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_182 = L_181;
+		NullCheck(L_182);
+		(L_182)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(6.44699976E-05f));
+		V_4 = L_182;
+		goto IL_08b9;
+	}
+
+IL_07da:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:228>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_183 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_184 = L_183;
+		NullCheck(L_184);
+		(L_184)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.00895438995f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_185 = L_184;
+		NullCheck(L_185);
+		(L_185)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(8.1799999E-06f));
+		V_4 = L_185;
+		goto IL_08b9;
+	}
+
+IL_07f7:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:230>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_186 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_187 = L_186;
+		NullCheck(L_187);
+		(L_187)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(1.77005517f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_188 = L_187;
+		NullCheck(L_188);
+		(L_188)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.000224000003f));
+		V_4 = L_188;
+		goto IL_08b9;
+	}
+
+IL_0814:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:232>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_189 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_190 = L_189;
+		NullCheck(L_190);
+		(L_190)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(304.2229f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_191 = L_190;
+		NullCheck(L_191);
+		(L_191)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(218.465149f));
+		V_4 = L_191;
+		goto IL_08b9;
+	}
+
+IL_0831:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:234>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_192 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_193 = L_192;
+		NullCheck(L_193);
+		(L_193)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(46.6815872f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_194 = L_193;
+		NullCheck(L_194);
+		(L_194)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.0100993803f));
+		V_4 = L_194;
+		goto IL_08b9;
+	}
+
+IL_084b:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:236>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_195 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_196 = L_195;
+		NullCheck(L_196);
+		(L_196)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(131.786362f));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_197 = L_196;
+		NullCheck(L_197);
+		(L_197)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-0.00606301986f));
+		V_4 = L_197;
+		goto IL_08b9;
+	}
+
+IL_0865:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:238>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_198 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_199 = L_198;
+		NullCheck(L_199);
+		(L_199)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(-0.000413480011f));
+		V_4 = L_199;
+		goto IL_08b9;
+	}
+
+IL_0877:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:240>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_200 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_201 = L_200;
+		NullCheck(L_201);
+		(L_201)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.683463156f));
+		V_4 = L_201;
+		goto IL_08b9;
+	}
+
+IL_0889:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:242>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_202 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_203 = L_202;
+		NullCheck(L_203);
+		(L_203)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(-0.101625472f));
+		V_4 = L_203;
+		goto IL_08b9;
+	}
+
+IL_089b:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:244>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_204 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_205 = L_204;
+		NullCheck(L_205);
+		(L_205)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(7.67024994f));
+		V_4 = L_205;
+		goto IL_08b9;
+	}
+
+IL_08ad:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:246>
+		goto IL_08af;
+	}
+
+IL_08af:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:248>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_206 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
+		V_4 = L_206;
+		goto IL_08b9;
+	}
+
+IL_08b9:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/PlanetData.cs:249>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_207 = V_4;
+		return L_207;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 80035
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PlanetEphemerisService_GetPlanetPosition_m7AD711235E486DADF478199B3A7BC8FF3F3A799E (PlanetEphemerisService_t7443928C4AE29216ABAB23BA9C3D7F73E57782BB* __this, int32_t ___0_planet, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___1_date, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetEphemerisService_GetPlanetPosition_m7AD711235E486DADF478199B3A7BC8FF3F3A799E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetEphemerisService_GetPlanetPosition_m7AD711235E486DADF478199B3A7BC8FF3F3A799E_RuntimeMethod_var);
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Services/PlanetEphemerisService.cs:8>
+		int32_t L_0 = ___0_planet;
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_1 = ___1_date;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = PlanetData_GetPlanetPosition_m7B39B09FC8BBDE24E778C38C1EE51FBE8F965D08(L_0, L_1, NULL);
+		V_0 = L_2;
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Services/PlanetEphemerisService.cs:15>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = V_0;
+		float L_4 = L_3.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
+		float L_6 = L_5.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
+		float L_8 = L_7.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), L_4, L_6, L_8, NULL);
+		V_1 = L_9;
+		goto IL_0023;
+	}
+
+IL_0023:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Services/PlanetEphemerisService.cs:16>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_1;
+		return L_10;
+	}
+}
+// Method Definition Index: 80036
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetEphemerisService__ctor_m94515B99553FCD39C385508FDDC8595A156F5787 (PlanetEphemerisService_t7443928C4AE29216ABAB23BA9C3D7F73E57782BB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetEphemerisService__ctor_m94515B99553FCD39C385508FDDC8595A156F5787_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetEphemerisService__ctor_m94515B99553FCD39C385508FDDC8595A156F5787_RuntimeMethod_var);
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 80037
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* PlanetSelectionSystem_get_Instance_m3076E0BB0559AF84BAC77DD6E674E097623D6B11 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectionSystem_get_Instance_m3076E0BB0559AF84BAC77DD6E674E097623D6B11_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetSelectionSystem_get_Instance_m3076E0BB0559AF84BAC77DD6E674E097623D6B11_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Systems/PlanetSelectionSystem.cs:6>
+		PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* L_0 = ((PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_StaticFields*)il2cpp_codegen_static_fields_for(PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 80038
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSelectionSystem_set_Instance_mD187491952B8071496BCA49E6381CB3A2BFA3C42 (PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectionSystem_set_Instance_mD187491952B8071496BCA49E6381CB3A2BFA3C42_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetSelectionSystem_set_Instance_mD187491952B8071496BCA49E6381CB3A2BFA3C42_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Systems/PlanetSelectionSystem.cs:6>
+		PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* L_0 = ___0_value;
+		((PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_StaticFields*)il2cpp_codegen_static_fields_for(PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_StaticFields*)il2cpp_codegen_static_fields_for(PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 80039
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSelectionSystem_add_OnPlanetSelected_mC4B1B1B38815342290539A930CCD932E92F9A7EA (PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* __this, Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectionSystem_add_OnPlanetSelected_mC4B1B1B38815342290539A930CCD932E92F9A7EA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetSelectionSystem_add_OnPlanetSelected_mC4B1B1B38815342290539A930CCD932E92F9A7EA_RuntimeMethod_var);
+	Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* V_0 = NULL;
+	Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* V_1 = NULL;
+	Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* V_2 = NULL;
+	{
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_0 = __this->___OnPlanetSelected;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_2 = V_1;
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97*)Castclass((RuntimeObject*)L_4, Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97_il2cpp_TypeInfo_var));
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97** L_5 = (Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97**)(&__this->___OnPlanetSelected);
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_6 = V_2;
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_7 = V_1;
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_9 = V_0;
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97*)L_9) == ((RuntimeObject*)(Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 80040
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSelectionSystem_remove_OnPlanetSelected_m75012C3D33352F487355605314E80DD3B4DCC5F5 (PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* __this, Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectionSystem_remove_OnPlanetSelected_m75012C3D33352F487355605314E80DD3B4DCC5F5_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetSelectionSystem_remove_OnPlanetSelected_m75012C3D33352F487355605314E80DD3B4DCC5F5_RuntimeMethod_var);
+	Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* V_0 = NULL;
+	Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* V_1 = NULL;
+	Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* V_2 = NULL;
+	{
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_0 = __this->___OnPlanetSelected;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_2 = V_1;
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97*)Castclass((RuntimeObject*)L_4, Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97_il2cpp_TypeInfo_var));
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97** L_5 = (Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97**)(&__this->___OnPlanetSelected);
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_6 = V_2;
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_7 = V_1;
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_9 = V_0;
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97*)L_9) == ((RuntimeObject*)(Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 80041
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSelectionSystem_Awake_m17BE7D2377991ABB11BD1EE307E797AF15381897 (PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectionSystem_Awake_m17BE7D2377991ABB11BD1EE307E797AF15381897_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetSelectionSystem_Awake_m17BE7D2377991ABB11BD1EE307E797AF15381897_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Systems/PlanetSelectionSystem.cs:14>
+		PlanetSelectionSystem_set_Instance_mD187491952B8071496BCA49E6381CB3A2BFA3C42_inline(__this, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Systems/PlanetSelectionSystem.cs:15>
+		return;
+	}
+}
+// Method Definition Index: 80042
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSelectionSystem_SelectPlanet_m69307A1AA219D912A54A67D715E64CCC56DA07E6 (PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* __this, PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* ___0_planet, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectionSystem_SelectPlanet_m69307A1AA219D912A54A67D715E64CCC56DA07E6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Planet_t2E7D91CC5C418DA36A4A9D5904C017B41636E873_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral35ACB1B9E1A47D348CA9A39440394AD932D9395E);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetSelectionSystem_SelectPlanet_m69307A1AA219D912A54A67D715E64CCC56DA07E6_RuntimeMethod_var);
+	Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* G_B2_0 = NULL;
+	Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* G_B1_0 = NULL;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Systems/PlanetSelectionSystem.cs:19>
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_0 = ___0_planet;
+		__this->___activePlanet = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___activePlanet), (void*)L_0);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Systems/PlanetSelectionSystem.cs:20>
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_1 = ___0_planet;
+		NullCheck(L_1);
+		int32_t* L_2 = (int32_t*)(&L_1->___planet);
+		Il2CppFakeBox<int32_t> L_3(Planet_t2E7D91CC5C418DA36A4A9D5904C017B41636E873_il2cpp_TypeInfo_var, L_2);
+		String_t* L_4;
+		L_4 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_3), NULL);
+		String_t* L_5;
+		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral35ACB1B9E1A47D348CA9A39440394AD932D9395E, L_4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_5, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Systems/PlanetSelectionSystem.cs:22>
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_6 = __this->___OnPlanetSelected;
+		Action_1_tE5A7776D8AA76B01F90746B14D822BB0DD990C97* L_7 = L_6;
+		if (L_7)
+		{
+			G_B2_0 = L_7;
+			goto IL_0035;
+		}
+		G_B1_0 = L_7;
+	}
+	{
+		goto IL_0041;
+	}
+
+IL_0035:
+	{
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_8 = __this->___activePlanet;
+		NullCheck(G_B2_0);
+		Action_1_Invoke_m4C4BC7F05AD378F55D5044733BB3898468ECD8F9_inline(G_B2_0, L_8, NULL);
+	}
+
+IL_0041:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Systems/PlanetSelectionSystem.cs:23>
+		return;
+	}
+}
+// Method Definition Index: 80043
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* PlanetSelectionSystem_GetActivePlanet_mCA8C9D76E59D766E9B848692CBA132BCFC4EB1D1 (PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectionSystem_GetActivePlanet_mCA8C9D76E59D766E9B848692CBA132BCFC4EB1D1_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetSelectionSystem_GetActivePlanet_mCA8C9D76E59D766E9B848692CBA132BCFC4EB1D1_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Systems/PlanetSelectionSystem.cs:25>
+		PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* L_0 = __this->___activePlanet;
+		return L_0;
+	}
+}
+// Method Definition Index: 80044
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetSelectionSystem__ctor_mAB9EAFD6AE2903AF0A50A8C43B841312CF11DC3B (PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectionSystem__ctor_mAB9EAFD6AE2903AF0A50A8C43B841312CF11DC3B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetSelectionSystem__ctor_mAB9EAFD6AE2903AF0A50A8C43B841312CF11DC3B_RuntimeMethod_var);
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 80045
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbitRenderer_Awake_m9E2B4DD0886424EA77947F0856AA8C7BA4EEC7C9 (OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m4F17B3CA1E7FFB03C7682312A59B9185E0F67C49_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OrbitRenderer_Awake_m9E2B4DD0886424EA77947F0856AA8C7BA4EEC7C9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(OrbitRenderer_Awake_m9E2B4DD0886424EA77947F0856AA8C7BA4EEC7C9_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:15>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_0;
+		L_0 = Component_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m4F17B3CA1E7FFB03C7682312A59B9185E0F67C49(__this, Component_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m4F17B3CA1E7FFB03C7682312A59B9185E0F67C49_RuntimeMethod_var);
+		__this->___lineRenderer = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lineRenderer), (void*)L_0);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:16>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_1 = __this->___lineRenderer;
+		NullCheck(L_1);
+		LineRenderer_set_loop_mC7FBA197A227B62F11DE01264C68357FBA475058(L_1, (bool)1, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:17>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_2 = __this->___lineRenderer;
+		NullCheck(L_2);
+		LineRenderer_set_startWidth_m3899722E198D636DB216CB61C980214707069F4A(L_2, (0.0199999996f), NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:18>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_3 = __this->___lineRenderer;
+		NullCheck(L_3);
+		LineRenderer_set_endWidth_mC7260401655C8BE1CBDFB832009295C89613F81D(L_3, (0.0199999996f), NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:19>
+		return;
+	}
+}
+// Method Definition Index: 80046
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbitRenderer_DrawOrbit_mB83BDA033EE37AE86BD45CEBF6D9C9956B91E2F6 (OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6* __this, RuntimeObject* ___0_ephemeris, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___1_start, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlanetEphemerisService_tBE8082A231527B804C437A797C7F14AFADE4F95F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OrbitRenderer_DrawOrbit_mB83BDA033EE37AE86BD45CEBF6D9C9956B91E2F6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(OrbitRenderer_DrawOrbit_mB83BDA033EE37AE86BD45CEBF6D9C9956B91E2F6_RuntimeMethod_var);
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* V_0 = NULL;
+	int32_t V_1 = 0;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:23>
+		int32_t L_0 = __this->___samples;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_0);
+		V_0 = L_1;
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:25>
+		V_1 = 0;
+		goto IL_0045;
+	}
+
+IL_0011:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:27>
+		int32_t L_2 = V_1;
+		float L_3 = __this->___orbitDays;
+		int32_t L_4 = __this->___samples;
+		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_5;
+		L_5 = DateTime_AddDays_m9DC06105845A82FEAF697D5E30308ABD49E5721B((&___1_start), ((double)((float)il2cpp_codegen_multiply(((float)L_2), ((float)(L_3/((float)L_4)))))), NULL);
+		V_2 = L_5;
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:28>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_ephemeris;
+		int32_t L_9 = __this->___planet;
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_10 = V_2;
+		NullCheck(L_8);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = InterfaceFuncInvoker2< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, int32_t, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D >::Invoke(0, IPlanetEphemerisService_tBE8082A231527B804C437A797C7F14AFADE4F95F_il2cpp_TypeInfo_var, L_8, L_9, L_10);
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_11);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:25>
+		int32_t L_12 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0045:
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:25>
+		int32_t L_13 = V_1;
+		int32_t L_14 = __this->___samples;
+		V_3 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_3;
+		if (L_15)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:31>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_16 = __this->___lineRenderer;
+		int32_t L_17 = __this->___samples;
+		NullCheck(L_16);
+		LineRenderer_set_positionCount_m2001FB4044053895ECBE897AB833284F3300B205(L_16, L_17, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:32>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_18 = __this->___lineRenderer;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_19 = V_0;
+		NullCheck(L_18);
+		LineRenderer_SetPositions_m7F7B7B54428437D0BF5256D4C82F92180B577B02(L_18, L_19, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:33>
+		return;
+	}
+}
+// Method Definition Index: 80047
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbitRenderer__ctor_m0359C8A0394175EF912F20F5A41FDA02DCFF7737 (OrbitRenderer_tFBBEBEEA125D8A57F49D402D36D92F1B3E84AAB6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OrbitRenderer__ctor_m0359C8A0394175EF912F20F5A41FDA02DCFF7737_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(OrbitRenderer__ctor_m0359C8A0394175EF912F20F5A41FDA02DCFF7737_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:8>
+		__this->___samples = ((int32_t)100);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/OrbitRenderer.cs:9>
+		__this->___orbitDays = (365.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 80048
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetView_Start_m22400629A89FB230F8FA0C3A82B24EEF75EDDCD0 (PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetView_Start_m22400629A89FB230F8FA0C3A82B24EEF75EDDCD0_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetView_Start_m22400629A89FB230F8FA0C3A82B24EEF75EDDCD0_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/PlanetView.cs:10>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		float L_2 = __this->___displaySize;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_1, L_2, NULL);
+		NullCheck(L_0);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_0, L_3, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/PlanetView.cs:11>
+		return;
+	}
+}
+// Method Definition Index: 80049
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetView_SetPosition_m7111B3E7814EC1C90865817F43A4AB97CEF5323A (PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetView_SetPosition_m7111B3E7814EC1C90865817F43A4AB97CEF5323A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetView_SetPosition_m7111B3E7814EC1C90865817F43A4AB97CEF5323A_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/PlanetView.cs:15>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_pos;
+		NullCheck(L_0);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_0, L_1, NULL);
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/PlanetView.cs:16>
+		return;
+	}
+}
+// Method Definition Index: 80050
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetView__ctor_m686C3996C2D1094BBC098D6D991F82A1D8A4EC04 (PlanetView_tCC6EA1B82266B083E08C0665A0A5DD18DB51EFE5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetView__ctor_m686C3996C2D1094BBC098D6D991F82A1D8A4EC04_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PlanetView__ctor_m686C3996C2D1094BBC098D6D991F82A1D8A4EC04_RuntimeMethod_var);
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Views/PlanetView.cs:6>
+		__this->___displaySize = (0.5f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 80051
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6_RuntimeMethod_var);
+	{
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 80052
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B_RuntimeMethod_var);
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 80053
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____708B68E59BB72C32DC23A85F9BEE0A124A5E652642356DCF26DA12B7CD54D5BD_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____7802D5DD0401ECD54DC7371D2F6AC74549D0537C14ADFD8D5A968D146F8122EE_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033_RuntimeMethod_var);
+	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)835));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____7802D5DD0401ECD54DC7371D2F6AC74549D0537C14ADFD8D5A968D146F8122EE_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)370));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____708B68E59BB72C32DC23A85F9BEE0A124A5E652642356DCF26DA12B7CD54D5BD_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = ((int32_t)16);
+		(&V_0)->___TotalTypes = ((int32_t)17);
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
+		V_1 = L_6;
+		goto IL_005f;
+	}
+
+IL_005f:
+	{
+		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_7 = V_1;
+		return L_7;
+	}
+}
+// Method Definition Index: 80054
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1_RuntimeMethod_var);
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 80037
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* PlanetSelectionSystem_get_Instance_m3076E0BB0559AF84BAC77DD6E674E097623D6B11_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Systems/PlanetSelectionSystem.cs:6>
+		PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* L_0 = ((PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_StaticFields*)il2cpp_codegen_static_fields_for(PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 51840
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 51850
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_7, L_8));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 80019
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D TimeModel_get_CurrentTime_m07C8E81C1FC0B3B52F4F9E26693735B2C9BE18EB_inline (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:5>
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = __this->___U3CCurrentTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 51943
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	{
+		float L_0 = ___0_value;
+		float L_1 = ___1_min;
+		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		float L_3 = ___1_min;
+		___0_value = L_3;
+		goto IL_0019;
+	}
+
+IL_000e:
+	{
+		float L_4 = ___0_value;
+		float L_5 = ___2_max;
+		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		float L_7 = ___2_max;
+		___0_value = L_7;
+	}
+
+IL_0019:
+	{
+		float L_8 = ___0_value;
+		V_2 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		float L_9 = V_2;
+		return L_9;
+	}
+}
+// Method Definition Index: 80023
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TimeModel_get_IsPlaying_m9B481B130E5D51B56BEB2D1ED9A7F84399F09717_inline (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:9>
+		bool L_0 = __this->___U3CIsPlayingU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 26327
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@5f736ad4ccd8/Runtime/Interaction/Interactables/XRBaseInteractable.cs:415>
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_0 = __this->___m_SelectEntered;
+		return L_0;
+	}
+}
+// Method Definition Index: 26329
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@5f736ad4ccd8/Runtime/Interaction/Interactables/XRBaseInteractable.cs:425>
+		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_0 = __this->___m_SelectExited;
+		return L_0;
+	}
+}
+// Method Definition Index: 80020
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TimeModel_set_CurrentTime_m36E3B9FE7E695168CA0ADBCC5A36338F759685FF_inline (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:5>
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = ___0_value;
+		__this->___U3CCurrentTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 80022
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TimeModel_set_TimeScale_m6F7D6E37ACA1B66DAE428B6DEFC40E941451CA08_inline (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:7>
+		float L_0 = ___0_value;
+		__this->___U3CTimeScaleU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 80024
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TimeModel_set_IsPlaying_m724051B020B45FE504A3B386BE0207E0D76C1981_inline (TimeModel_t16071A688191058375A1AF75A4717489DC8F76EC* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Models/TimeModel.cs:9>
+		bool L_0 = ___0_value;
+		__this->___U3CIsPlayingU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 51810
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 80038
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlanetSelectionSystem_set_Instance_mD187491952B8071496BCA49E6381CB3A2BFA3C42_inline (PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/rachidjunior/Bureau/Solar_System_Workbench/Solar_System/Assets/Scripts/Systems/PlanetSelectionSystem.cs:6>
+		PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F* L_0 = ___0_value;
+		((PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_StaticFields*)il2cpp_codegen_static_fields_for(PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_StaticFields*)il2cpp_codegen_static_fields_for(PlanetSelectionSystem_t697BA337725EF4F946647983A6E8D23123E9F07F_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 12411
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_m8180866D0B72B5B8758B3138DE9404CB754B9779_gshared_inline (Action_1_t53FBC0BFE69883C647FC168F3E2591BE05BFBE1B* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_obj, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 12411
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}

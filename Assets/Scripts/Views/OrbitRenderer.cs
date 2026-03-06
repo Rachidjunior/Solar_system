@@ -31,4 +31,13 @@ public class OrbitRenderer : MonoBehaviour
         lineRenderer.positionCount = samples;
         lineRenderer.SetPositions(points);
     }
+
+    // ── Méthode ajoutée pour UIController ──
+
+    public void SetVisible(bool visible)
+    {
+        if (lineRenderer == null) return;
+        lineRenderer.enabled = visible;
+        Debug.Log("[OrbitRenderer] Visible → " + visible);
+    }
 }
