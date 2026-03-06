@@ -19,12 +19,13 @@ public class FocusController : MonoBehaviour
     {
         infoPanel.SetActive(false);
         PlanetSelectionSystem.Instance.OnPlanetSelected += FocusOn;
+        Debug.Log("[XR] FocusController initialisé");
     }
 
     public void FocusOn(PlanetView planet)
     {
         focusedPlanet = planet;
-        Debug.Log("[FOCUS] Focusing on: " + planet.planet);
+        Debug.Log("[XR] Focus sur : " + planet.planet);
         planet.transform.localScale = Vector3.one * planet.displaySize * 2f;
         infoPanel.SetActive(true);
         UpdateUI(planet);
@@ -34,8 +35,10 @@ public class FocusController : MonoBehaviour
     {
         planetNameText.text = planet.planet.ToString();
         distanceText.text   = "Distance : " + GetDistance(planet.planet) + " UA";
-        periodText.text     = "Période : " + GetPeriod(planet.planet) + " jours";
+        periodText.text     = "Periode : " + GetPeriod(planet.planet) + " jours";
         dateText.text       = "Date : " + timeModel?.CurrentTime.ToString("dd/MM/yyyy");
+
+        Debug.Log("[XR] UI mise a jour pour : " + planet.planet);
     }
 
     float GetDistance(PlanetData.Planet p)
@@ -74,5 +77,7 @@ public class FocusController : MonoBehaviour
     {
         if (PlanetSelectionSystem.Instance != null)
             PlanetSelectionSystem.Instance.OnPlanetSelected -= FocusOn;
+
+        Debug.Log("[XR] FocusController detruit");
     }
 }

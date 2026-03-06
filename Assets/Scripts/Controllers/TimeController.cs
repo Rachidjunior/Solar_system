@@ -13,6 +13,7 @@ public class TimeController : MonoBehaviour
         model = m;
         current = DateTime.Now;
         model.SetTime(current);
+        Debug.Log("[TIME] TimeController initialise : " + current.ToString("dd/MM/yyyy"));
     }
 
     void Update()
@@ -23,8 +24,6 @@ public class TimeController : MonoBehaviour
         current = current.AddDays(Time.deltaTime * secondsPerDay);
         model.SetTime(current);
     }
-
-    // ── Méthodes ajoutées ──
 
     public string GetCurrentDate()
     {
@@ -44,18 +43,16 @@ public class TimeController : MonoBehaviour
     public void SetSpeed(float speed)
     {
         secondsPerDay = speed;
-        Debug.Log("[TimeController] Vitesse → x" + speed);
+        Debug.Log("[TIME] Vitesse → x" + speed);
     }
 
     public void SetPaused(bool paused)
     {
         if (model == null) return;
 
-        if (paused)
-            model.Pause();   // ← utilise Pause() de TimeModel
-        else
-            model.Play();    // ← utilise Play() de TimeModel
+        if (paused) model.Pause();
+        else model.Play();
 
-        Debug.Log("[TimeController] Pause → " + paused);
+        Debug.Log("[TIME] Pause → " + paused);
     }
 }

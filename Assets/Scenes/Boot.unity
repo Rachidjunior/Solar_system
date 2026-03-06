@@ -129,15 +129,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.64
+      value: -0.398
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.15
+      value: 0.169
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.6
+      value: -1.89
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_LocalRotation.w
@@ -173,7 +173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1052,13 +1052,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1141,8 +1141,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -80, y: 20}
-  m_SizeDelta: {x: 120, y: 50}
+  m_AnchoredPosition: {x: -85, y: 20}
+  m_SizeDelta: {x: 140, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &251271155
 MonoBehaviour:
@@ -1263,7 +1263,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -100, y: -80}
-  m_SizeDelta: {x: 180, y: 50}
+  m_SizeDelta: {x: 200, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &261680160
 MonoBehaviour:
@@ -1433,13 +1433,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.11255873, y: -0.43033955, z: 0.08094299, w: -0.8919567}
-  m_LocalPosition: {x: -0.61, y: 0.11999999, z: -1.62}
+  m_LocalRotation: {x: -0.015607999, y: -0.6800161, z: -0.04158876, w: -0.7318504}
+  m_LocalPosition: {x: -0.178, y: 0.087, z: -2.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 15.692, y: 51.122, z: -2.829}
+  m_LocalEulerAnglesHint: {x: -1.932, y: 85.715, z: 4.712}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1521,7 +1521,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 100}
-  m_SizeDelta: {x: 200, y: 60}
+  m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &336746258
 MonoBehaviour:
@@ -2498,7 +2498,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -240, y: 20}
-  m_SizeDelta: {x: 120, y: 50}
+  m_SizeDelta: {x: 140, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &523506558
 MonoBehaviour:
@@ -3417,13 +3417,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3507,7 +3507,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 240, y: 20}
-  m_SizeDelta: {x: 150, y: 50}
+  m_SizeDelta: {x: 170, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &778649740
 MonoBehaviour:
@@ -3811,7 +3811,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1548534534}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SolarScaleController, Assembly-CSharp
         m_MethodName: ScaleDown
         m_Mode: 1
@@ -4987,18 +4987,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072572772}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1.5}
+  m_LocalRotation: {x: -0, y: -0.52972174, z: -0, w: 0.84817153}
+  m_LocalPosition: {x: 0, y: 0, z: -3.28}
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1652011888}
   - {fileID: 1866577638}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -63.973, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 2.5}
+  m_AnchoredPosition: {x: 1.94, y: -0.11}
   m_SizeDelta: {x: 600, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1072572777
@@ -5031,7 +5031,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::XRDebugPanel
   text: {fileID: 1866577639}
+  timeController: {fileID: 527140840}
   maxLines: 15
+  refreshRate: 0.5
+  ignoredMessages:
+  - audio listener
+  - There are 2 audio listeners in the scene.
+  - 'Please ensure there is always exactly one audio listener in the scene. '
+  - XR Plug-in Management
+  - Fallback handler
 --- !u!1 &1144176533
 GameObject:
   m_ObjectHideFlags: 0
@@ -6245,8 +6253,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 80, y: 20}
-  m_SizeDelta: {x: 120, y: 50}
+  m_AnchoredPosition: {x: 65, y: 20}
+  m_SizeDelta: {x: 140, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1463279398
 MonoBehaviour:
@@ -6477,9 +6485,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1548534533}
   - component: {fileID: 1548534532}
-  - component: {fileID: 1548534534}
   - component: {fileID: 1548534536}
   - component: {fileID: 1548534535}
+  - component: {fileID: 1548534537}
   m_Layer: 0
   m_Name: App
   m_TagString: Untagged
@@ -6536,22 +6544,6 @@ Transform:
   - {fileID: 527140841}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1548534534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548534531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30c0d0180948700dba54b51fdadb2ed5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SolarScaleController
-  solarSystemRoot: {fileID: 1708323279}
-  minScale: 0.1
-  maxScale: 5
-  currentScale: 1
 --- !u!114 &1548534535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6581,6 +6573,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea16a622846034b1d9354ca75e770bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlanetSelectionSystem
+--- !u!114 &1548534537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548534531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eee0348b8998226bb7f6132bcff3f6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScaleController
+  solarSystemRoot: {fileID: 1708323279}
+  minScale: 0.1
+  maxScale: 5
+  defaultScale: 1
 --- !u!1 &1652011887
 GameObject:
   m_ObjectHideFlags: 0
@@ -6718,6 +6726,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1708323279}
+  - component: {fileID: 1708323281}
+  - component: {fileID: 1708323280}
   m_Layer: 0
   m_Name: SolarSystemRoot
   m_TagString: Untagged
@@ -6742,6 +6752,35 @@ Transform:
   - {fileID: 190206895}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1708323280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708323278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fac0f58b81978695a4d6c8c85a7b622, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SolarSystemMover
+  defaultPosition: {x: 0, y: 0, z: 0}
+--- !u!114 &1708323281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708323278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eee0348b8998226bb7f6132bcff3f6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScaleController
+  solarSystemRoot: {fileID: 1708323279}
+  minScale: 0.1
+  maxScale: 5
+  defaultScale: 1
 --- !u!1 &1713714518
 GameObject:
   m_ObjectHideFlags: 0
@@ -6822,7 +6861,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -1, y: 0}
   m_SizeDelta: {x: 560, y: 380}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1866577639
@@ -7360,7 +7399,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1548534534}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SolarScaleController, Assembly-CSharp
         m_MethodName: ScaleUp
         m_Mode: 1
@@ -8083,7 +8122,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 85.701, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.1, y: 0.7}
+  m_AnchoredPosition: {x: 1.1, y: 0.22}
   m_SizeDelta: {x: 803, y: 503}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2095040999
@@ -8124,9 +8163,17 @@ MonoBehaviour:
   btnResetView: {fileID: 261680160}
   btnResetScale: {fileID: 2118883355}
   timeController: {fileID: 527140840}
-  scaleController: {fileID: 0}
-  orbitRenderers: []
-  solarSystemMover: {fileID: 0}
+  scaleController: {fileID: 1708323281}
+  orbitRenderers:
+  - {fileID: 1020440287}
+  - {fileID: 1144176539}
+  - {fileID: 938304505}
+  - {fileID: 582494026}
+  - {fileID: 1442335904}
+  - {fileID: 88517103}
+  - {fileID: 515769789}
+  - {fileID: 2055849064}
+  solarSystemMover: {fileID: 1708323280}
 --- !u!1 &2109083855 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1767192433, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -8213,7 +8260,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 100, y: -80}
-  m_SizeDelta: {x: 180, y: 50}
+  m_SizeDelta: {x: 200, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2118883355
 MonoBehaviour:
